@@ -1,0 +1,6498 @@
+{
+  "source": {
+    "title": "Fluxo de Processos do Guia PMBOK® – 8ª edição (PT, A0)",
+    "adaptation": "Ricardo Viana Vargas",
+    "design": "Sergio Alves Lima Jardim",
+    "copyright": "©2026 Project Management Institute, Inc.",
+    "note": "Este fluxo não substitui a leitura do Guia PMBOK®."
+  },
+  "principles": [
+    {
+      "id": 1,
+      "name": "Focar no valor"
+    },
+    {
+      "id": 2,
+      "name": "Integrar a sustentabilidade"
+    },
+    {
+      "id": 3,
+      "name": "Ser um líder responsável"
+    },
+    {
+      "id": 4,
+      "name": "Construir uma cultura empoderada"
+    },
+    {
+      "id": 5,
+      "name": "Adotar uma visão holística"
+    },
+    {
+      "id": 6,
+      "name": "Incorporar qualidade"
+    }
+  ],
+  "domains": [
+    {
+      "id": "governanca",
+      "number": 1,
+      "name": "Governança"
+    },
+    {
+      "id": "escopo",
+      "number": 2,
+      "name": "Escopo"
+    },
+    {
+      "id": "cronograma",
+      "number": 3,
+      "name": "Cronograma"
+    },
+    {
+      "id": "financas",
+      "number": 4,
+      "name": "Finanças"
+    },
+    {
+      "id": "partes-interessadas",
+      "number": 5,
+      "name": "Partes Interessadas"
+    },
+    {
+      "id": "recursos",
+      "number": 6,
+      "name": "Recursos"
+    },
+    {
+      "id": "riscos",
+      "number": 7,
+      "name": "Riscos"
+    }
+  ],
+  "phases": [
+    {
+      "id": "iniciacao",
+      "order": 1,
+      "name": "Iniciação"
+    },
+    {
+      "id": "planejamento",
+      "order": 2,
+      "name": "Planejamento"
+    },
+    {
+      "id": "execucao",
+      "order": 3,
+      "name": "Execução"
+    },
+    {
+      "id": "monitoramento-controle",
+      "order": 4,
+      "name": "Monitoramento e Controle"
+    },
+    {
+      "id": "encerramento",
+      "order": 5,
+      "name": "Encerramento"
+    }
+  ],
+  "processes": [
+    {
+      "id": "1.1",
+      "name": "Iniciar Projeto ou Fase",
+      "domain": "governanca",
+      "phase": "iniciacao",
+      "position": {
+        "x": 171,
+        "y": 271,
+        "w": 178,
+        "h": 368
+      },
+      "inputs": [
+        {
+          "name": "Documentos comerciais",
+          "items": [
+            "Caso de negócio",
+            "Plano de gerenciamento de benefícios"
+          ]
+        },
+        {
+          "name": "Acordos",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Coleta de dados",
+          "items": [
+            "Brainstorming",
+            "Grupos de discussão",
+            "Entrevistas"
+          ]
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Gerenciamento de conflitos",
+            "Facilitação",
+            "Gerenciamento de reuniões"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Matriz de atribuição de responsabilidades",
+          "items": []
+        },
+        {
+          "name": "Canvas de projeto",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Registro de premissas",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "1.2",
+      "name": "Integrar e alinhar planos de projeto",
+      "domain": "governanca",
+      "phase": "planejamento",
+      "position": {
+        "x": 902,
+        "y": 288,
+        "w": 178,
+        "h": 337
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Saídas de outros processos",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Coleta de dados",
+          "items": [
+            "Brainstorming",
+            "Listas de verificação",
+            "Grupos de discussão",
+            "Entrevistas"
+          ]
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Gerenciamento de conflitos",
+            "Facilitação",
+            "Gerenciamento de reuniões"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Canvas de projeto",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "1.3",
+      "name": "Planejar a Estratégia de Aquisições",
+      "domain": "governanca",
+      "phase": "planejamento",
+      "position": {
+        "x": 902,
+        "y": 653,
+        "w": 178,
+        "h": 431
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento do escopo",
+            "Plano de Gerenciamento da Qualidade",
+            "Linha de base do escopo",
+            "Plano de gerenciamento do cronograma",
+            "Plano de gerenciamento financeiro",
+            "Plano de gerenciamento de recursos"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Lista de marcos",
+            "Documentação de requisitos",
+            "Matriz de rastreabilidade de requisitos",
+            "Métricas de qualidade",
+            "Requisitos de recursos",
+            "Atribuições da equipe do projeto",
+            "Registro de riscos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Pesquisa de mercado",
+          "items": []
+        },
+        {
+          "name": "Análise de fazer ou comprar",
+          "items": []
+        },
+        {
+          "name": "Análise de seleção de fontes",
+          "items": []
+        },
+        {
+          "name": "Análise de documentos",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Plano da estratégia de fornecimento",
+          "items": [
+            "Decisões de internalização ou terceirização",
+            "Critérios de seleção de fontes"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "1.4",
+      "name": "Gerenciar a Execução do Projeto",
+      "domain": "governanca",
+      "phase": "execucao",
+      "position": {
+        "x": 440,
+        "y": 1299,
+        "w": 178,
+        "h": 507
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Qualquer componente"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de alterações",
+            "Registro de lições aprendidas",
+            "Lista de marcos",
+            "Comunicações do projeto",
+            "Cronograma do projeto",
+            "Matriz de rastreabilidade de requisitos",
+            "Registro de riscos",
+            "Relatório de riscos"
+          ]
+        },
+        {
+          "name": "Solicitações de mudanças aprovadas",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Sistema de informações de gerenciamento de projetos",
+          "items": []
+        },
+        {
+          "name": "Reuniões",
+          "items": [
+            "Reuniões diárias de coordenação"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Entregas",
+          "items": []
+        },
+        {
+          "name": "Dados de desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Registro de questões",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Qualquer componente"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Lista de atividades",
+            "Registro de premissas",
+            "Registro de lições aprendidas",
+            "Documentação de requisitos",
+            "Registro de riscos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Atualizações de ativos de processos organizacionais",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "1.5",
+      "name": "Gerenciar a Garantia de Qualidade",
+      "domain": "governanca",
+      "phase": "execucao",
+      "position": {
+        "x": 640,
+        "y": 1299,
+        "w": 178,
+        "h": 372
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": []
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Todos os componentes"
+          ]
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": [
+            "Políticas",
+            "Procedimentos",
+            "Regulamentos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Auditorias",
+          "items": []
+        },
+        {
+          "name": "Listas de verificação",
+          "items": []
+        },
+        {
+          "name": "Representação de dados",
+          "items": [
+            "Diagramas de afinidade",
+            "Diagramas de causa e efeito",
+            "Fluxogramas"
+          ]
+        },
+        {
+          "name": "Tomada de decisão",
+          "items": []
+        },
+        {
+          "name": "Resolução de problemas",
+          "items": []
+        },
+        {
+          "name": "Melhoria do processo",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Relatórios de qualidade",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": []
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "1.6",
+      "name": "Gerenciar o Conhecimento do Projeto",
+      "domain": "governanca",
+      "phase": "execucao",
+      "position": {
+        "x": 842,
+        "y": 1299,
+        "w": 178,
+        "h": 468
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Todos os componentes"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de lições aprendidas",
+            "Atribuições da equipe do projeto",
+            "Estrutura analítica de recursos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Entregas",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Gerenciamento do conhecimento",
+          "items": []
+        },
+        {
+          "name": "Gerenciamento de informações",
+          "items": []
+        },
+        {
+          "name": "Revisões pós-ação",
+          "items": []
+        },
+        {
+          "name": "Análises pós-morte em andamento",
+          "items": []
+        },
+        {
+          "name": "Contação de histórias",
+          "items": []
+        },
+        {
+          "name": "Reuniões retrospectivas",
+          "items": []
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Escuta ativa",
+            "Facilitação",
+            "Liderança",
+            "Rede de Contatos",
+            "Consciência política"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Registro de lições aprendidas",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Qualquer componente"
+          ]
+        },
+        {
+          "name": "Atualizações de ativos de processos organizacionais",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "1.7",
+      "name": "Monitorar e Controlar o Desempenho do Projeto",
+      "domain": "governanca",
+      "phase": "monitoramento-controle",
+      "position": {
+        "x": 1583,
+        "y": 2027,
+        "w": 178,
+        "h": 597
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Qualquer componente"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Base das estimativas",
+            "Previsões de custos",
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Lista de marcos",
+            "Relatórios de qualidade",
+            "Registro de riscos",
+            "Relatório de riscos",
+            "Previsões de cronograma"
+          ]
+        },
+        {
+          "name": "Informações sobre o desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Acordos",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise alternativa",
+            "Análise de custo-benefício",
+            "Análise de valor agregado",
+            "Análise de causa raiz",
+            "Análise de tendências",
+            "Análise de variação"
+          ]
+        },
+        {
+          "name": "Tomada de decisão",
+          "items": [
+            "Votação"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Painéis de controle do projeto",
+          "items": []
+        },
+        {
+          "name": "Controles visuais",
+          "items": []
+        },
+        {
+          "name": "Irradiadores de informações",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Relatórios de desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Qualquer componente"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Previsões de custos",
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Registro de riscos",
+            "Previsões de cronograma"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "1.8",
+      "name": "Avaliar e Implementar Mudanças",
+      "domain": "governanca",
+      "phase": "monitoramento-controle",
+      "position": {
+        "x": 1583,
+        "y": 2660,
+        "w": 178,
+        "h": 489
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de mudanças",
+            "Plano de gerenciamento de configuração",
+            "Linha de base do escopo",
+            "Linha de base do cronograma",
+            "Linha de base dos custos"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Base das estimativas",
+            "Registro de alterações",
+            "Matriz de rastreabilidade de requisitos",
+            "Relatório de riscos"
+          ]
+        },
+        {
+          "name": "Relatórios de desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Ferramentas de controle de mudanças",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise alternativa",
+            "Análise de custo-benefício"
+          ]
+        },
+        {
+          "name": "Tomada de decisão",
+          "items": [
+            "Votação",
+            "Tomada de decisão autocrática",
+            "Análise de decisão multicritério"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Controle integrado de mudanças",
+          "items": []
+        },
+        {
+          "name": "Gerenciamento de backlog",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Solicitações de mudanças aprovadas",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Qualquer componente"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de alterações"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "1.9",
+      "name": "Encerrar o Projeto ou Fase",
+      "domain": "governanca",
+      "phase": "encerramento",
+      "position": {
+        "x": 848,
+        "y": 2669,
+        "w": 178,
+        "h": 523
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Todos os componentes"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Base das estimativas",
+            "Registro de alterações",
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Lista de marcos",
+            "Comunicações do projeto",
+            "Medições de controle de qualidade",
+            "Relatórios de qualidade",
+            "Documentação de requisitos",
+            "Registro de riscos",
+            "Relatório de riscos"
+          ]
+        },
+        {
+          "name": "Entregas aceitas",
+          "items": []
+        },
+        {
+          "name": "Documentos comerciais",
+          "items": [
+            "Caso de negócio",
+            "Plano de gerenciamento de benefícios"
+          ]
+        },
+        {
+          "name": "Acordos",
+          "items": []
+        },
+        {
+          "name": "Documentação de aquisição",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise de documentos",
+            "Análise de regressão",
+            "Análise de tendências",
+            "Análise de variação"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de lições aprendidas"
+          ]
+        },
+        {
+          "name": "Transição do produto, serviço ou resultado final",
+          "items": []
+        },
+        {
+          "name": "Relatório final",
+          "items": []
+        },
+        {
+          "name": "Atualizações de ativos de processos organizacionais",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "2.1",
+      "name": "Planejar o Gerenciamento do Escopo",
+      "domain": "escopo",
+      "phase": "planejamento",
+      "position": {
+        "x": 457,
+        "y": 288,
+        "w": 178,
+        "h": 357
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": []
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Documentação de requisitos",
+            "Registro de riscos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Coleta de dados",
+          "items": [
+            "Entrevistas",
+            "Grupos de discussão",
+            "Questionários e pesquisas"
+          ]
+        },
+        {
+          "name": "Análise de dados",
+          "items": []
+        },
+        {
+          "name": "Planejamento de testes e inspeções",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de Gerenciamento de Escopo",
+            "Plano de Gerenciamento de Requisitos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "2.2",
+      "name": "Elicitação e análise de requisitos",
+      "domain": "escopo",
+      "phase": "planejamento",
+      "position": {
+        "x": 658,
+        "y": 288,
+        "w": 178,
+        "h": 455
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Acordos",
+          "items": []
+        },
+        {
+          "name": "Caso de negócio",
+          "items": []
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Registro de lições aprendidas",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de requisitos",
+            "Plano de gerenciamento do escopo"
+          ]
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Tomada de decisão",
+          "items": []
+        },
+        {
+          "name": "Coleta de dados",
+          "items": [
+            "Benchmarking",
+            "Brainstorming",
+            "Grupos de discussão",
+            "Entrevistas",
+            "Questionários e pesquisas"
+          ]
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise de documentos"
+          ]
+        },
+        {
+          "name": "Representação de dados",
+          "items": []
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Grupo nominal"
+          ]
+        },
+        {
+          "name": "Pensamento de design",
+          "items": []
+        },
+        {
+          "name": "Priorização/classificação",
+          "items": []
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Documentação de requisitos",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "2.3",
+      "name": "Definir o Escopo",
+      "domain": "escopo",
+      "phase": "planejamento",
+      "position": {
+        "x": 457,
+        "y": 666,
+        "w": 178,
+        "h": 325
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Registro de premissas",
+          "items": []
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": []
+        },
+        {
+          "name": "Documentação de requisitos",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Tomada de decisão",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": []
+        },
+        {
+          "name": "Decomposição",
+          "items": []
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Facilitação"
+          ]
+        },
+        {
+          "name": "Análise de produto",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Declaração do escopo do projeto",
+            "Documentação de requisitos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "2.4",
+      "name": "Desenvolver a Estrutura do Escopo",
+      "domain": "escopo",
+      "phase": "planejamento",
+      "position": {
+        "x": 658,
+        "y": 768,
+        "w": 178,
+        "h": 316
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": []
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Declaração do escopo do projeto",
+            "Documentação de requisitos"
+          ]
+        },
+        {
+          "name": "Mudanças aprovadas",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Brainstorming",
+          "items": []
+        },
+        {
+          "name": "Decomposição",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Linha de base do escopo",
+          "items": []
+        },
+        {
+          "name": "Estrutura Analítica do Projeto (EAP)",
+          "items": []
+        },
+        {
+          "name": "Dicionário da EAP",
+          "items": []
+        },
+        {
+          "name": "Histórias de usuário",
+          "items": []
+        },
+        {
+          "name": "Backlog de produto",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": [],
+      "sourceNotes": [
+        "Saída normalizada para \"Estrutura Analítica do Projeto (EAP)\"; no A0 consta \"estrutura analítica do trabalho (EAT)\"."
+      ]
+    },
+    {
+      "id": "2.5",
+      "name": "Monitorar e Controlar o Escopo",
+      "domain": "escopo",
+      "phase": "monitoramento-controle",
+      "position": {
+        "x": 1130,
+        "y": 2027,
+        "w": 178,
+        "h": 521
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento do escopo",
+            "Plano de Gerenciamento da Qualidade"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Documentação de requisitos",
+            "Linha de base da medição de desempenho",
+            "Documentação de teste e avaliação de quali­ dade"
+          ]
+        },
+        {
+          "name": "Métricas de qualidade",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudanças aprovadas",
+          "items": []
+        },
+        {
+          "name": "Entregas",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise de variação",
+            "Análise de tendências",
+            "Análise de causa raiz"
+          ]
+        },
+        {
+          "name": "Avaliações de desempenho",
+          "items": []
+        },
+        {
+          "name": "Auditorias e inspeções",
+          "items": []
+        },
+        {
+          "name": "Testes/avaliações de produtos",
+          "items": []
+        },
+        {
+          "name": "Representações de dados",
+          "items": []
+        },
+        {
+          "name": "Automações de processos",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Relatórios de qualidade",
+          "items": []
+        },
+        {
+          "name": "Entregas verificadas",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Medições de controle de qualidade",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento do escopo",
+            "Plano de Gerenciamento da Qualidade"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Documentação de requisitos",
+            "Registro de lições aprendidas"
+          ]
+        },
+        {
+          "name": "Informações sobre o desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "2.6",
+      "name": "Validar o Escopo",
+      "domain": "escopo",
+      "phase": "monitoramento-controle",
+      "position": {
+        "x": 1331,
+        "y": 2027,
+        "w": 178,
+        "h": 394
+      },
+      "inputs": [
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Documentação de requisitos",
+            "Linha de base do escopo",
+            "Relatórios de qualidade",
+            "Dados de desempenho do trabalho",
+            "Medições de controle de qualidade"
+          ]
+        },
+        {
+          "name": "Entregas verificadas",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Coleta de dados",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": []
+        },
+        {
+          "name": "Inspeção",
+          "items": []
+        },
+        {
+          "name": "Tomada de decisão",
+          "items": []
+        },
+        {
+          "name": "Conversas e testes com clientes",
+          "items": []
+        },
+        {
+          "name": "Análise de processo",
+          "items": []
+        },
+        {
+          "name": "Reuniões de revisão",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Entregas aceitas",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Relatórios de qualidade",
+            "Informações sobre o desempenho do trabalho",
+            "Documentação de requisitos"
+          ]
+        },
+        {
+          "name": "Atualizações de lições aprendidas",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "3.1",
+      "name": "Planejar o Gerenciamento do Cronograma",
+      "domain": "cronograma",
+      "phase": "planejamento",
+      "position": {
+        "x": 1147,
+        "y": 819,
+        "w": 178,
+        "h": 300
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento do escopo"
+          ]
+        },
+        {
+          "name": "Abordagem de desenvolvimento",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise alternativa"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento do cronograma"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "3.2",
+      "name": "Desenvolver o Cronograma",
+      "domain": "cronograma",
+      "phase": "planejamento",
+      "position": {
+        "x": 1147,
+        "y": 1131,
+        "w": 178,
+        "h": 813
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento do escopo"
+          ]
+        },
+        {
+          "name": "Abordagem de desenvolvimento",
+          "items": []
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Atributos da atividade",
+            "Lista de atividades",
+            "Registro de premissas",
+            "Base das estimativas",
+            "Estimativas de duração",
+            "Registro de lições aprendidas",
+            "Lista de marcos",
+            "Diagramas de rede do cronograma do projeto",
+            "Atribuições da equipe do projeto",
+            "Calendários de recursos",
+            "Requisitos de recursos",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Acordos",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Decomposição",
+          "items": []
+        },
+        {
+          "name": "Planejamento em ondas sucessivas",
+          "items": []
+        },
+        {
+          "name": "Método de diagramação de precedência",
+          "items": []
+        },
+        {
+          "name": "Relação lógica",
+          "items": []
+        },
+        {
+          "name": "Antecipações e atrasos",
+          "items": []
+        },
+        {
+          "name": "Determinação e integração de dependências",
+          "items": []
+        },
+        {
+          "name": "Técnicas de estimativa",
+          "items": []
+        },
+        {
+          "name": "Análise de reservas",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise de hipóteses",
+            "Simulação",
+            "Análise alternativa"
+          ]
+        },
+        {
+          "name": "Votação",
+          "items": []
+        },
+        {
+          "name": "Análise de rede do cronograma",
+          "items": []
+        },
+        {
+          "name": "Compressão de cronograma",
+          "items": []
+        },
+        {
+          "name": "Método do caminho crítico",
+          "items": []
+        },
+        {
+          "name": "Método da cadeia crítica",
+          "items": []
+        },
+        {
+          "name": "Otimização de recursos",
+          "items": [
+            "Nivelamento de recursos"
+          ]
+        },
+        {
+          "name": "Sistema de informações de gerenciamento de projetos",
+          "items": []
+        },
+        {
+          "name": "Planejamento de lançamento ágil",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Linha de base do cronograma",
+          "items": []
+        },
+        {
+          "name": "Cronograma do projeto",
+          "items": []
+        },
+        {
+          "name": "Dados do cronograma",
+          "items": []
+        },
+        {
+          "name": "Calendários do projeto",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento do cronograma"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Lista de atividades",
+            "Atributos da atividade",
+            "Registro de premissas",
+            "Base das estimativas",
+            "Estimativas de duração",
+            "Registro de lições aprendidas",
+            "Lista de marcos",
+            "Diagramas de rede do cronograma do projeto",
+            "Requisitos de recursos",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "3.3",
+      "name": "Monitorar e Controlar o Cronograma",
+      "domain": "cronograma",
+      "phase": "monitoramento-controle",
+      "position": {
+        "x": 1825,
+        "y": 2027,
+        "w": 178,
+        "h": 699
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento do cronograma",
+            "Linha de base do escopo",
+            "Linha de base da medição de desempenho"
+          ]
+        },
+        {
+          "name": "Backlog de produto",
+          "items": []
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de lições aprendidas",
+            "Calendários do projeto",
+            "Cronograma do projeto",
+            "Calendários de recursos",
+            "Registro de riscos",
+            "Dados do cronograma"
+          ]
+        },
+        {
+          "name": "Dados de desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise de valor agregado",
+            "Gráfico de burnup/gráfico de burndown",
+            "Avaliações de desempenho",
+            "Análise de tendências",
+            "Análise de variação",
+            "Análise de cenários hipotéticos"
+          ]
+        },
+        {
+          "name": "Método do caminho crítico",
+          "items": []
+        },
+        {
+          "name": "Método da cadeia crítica",
+          "items": []
+        },
+        {
+          "name": "Sistema de informações de gerenciamento de projetos",
+          "items": []
+        },
+        {
+          "name": "Otimização de recursos",
+          "items": []
+        },
+        {
+          "name": "Antecipações e atrasos",
+          "items": []
+        },
+        {
+          "name": "Compressão de cronograma",
+          "items": []
+        },
+        {
+          "name": "Ramificação e delimitação",
+          "items": []
+        },
+        {
+          "name": "Velocidade",
+          "items": []
+        },
+        {
+          "name": "Reuniões diárias de coordenação",
+          "items": []
+        },
+        {
+          "name": "Revisões de sprint",
+          "items": []
+        },
+        {
+          "name": "Refinamento de backlog",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Informações sobre o desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Previsões de cronograma",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento do cronograma",
+            "Linha de base do cronograma",
+            "Linha de base dos custos",
+            "Linha de base da medição de desempenho"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Base das estimativas",
+            "Registro de lições aprendidas",
+            "Cronograma do projeto",
+            "Calendários de recursos",
+            "Registro de riscos",
+            "Dados do cronograma"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "4.1",
+      "name": "Planejar o Gerenciamento Financeiro",
+      "domain": "financas",
+      "phase": "planejamento",
+      "position": {
+        "x": 1146,
+        "y": 288,
+        "w": 178,
+        "h": 301
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento do cronograma",
+            "Plano de gerenciamento de riscos"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise alternativa"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Plano de gerenciamento financeiro",
+          "items": []
+        },
+        {
+          "name": "Estratégia de financiamento",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "4.2",
+      "name": "Estimar os Custos",
+      "domain": "financas",
+      "phase": "planejamento",
+      "position": {
+        "x": 1348,
+        "y": 288,
+        "w": 178,
+        "h": 474
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de Gerenciamento da Qualidade",
+            "Linha de base do escopo"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de lições aprendidas",
+            "Cronograma do projeto",
+            "Requisitos de recursos",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Decisões de fazer ou comprar",
+          "items": []
+        },
+        {
+          "name": "Estimativa de pacote de trabalho",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Estimativa análoga",
+          "items": []
+        },
+        {
+          "name": "Estimativa paramétrica",
+          "items": []
+        },
+        {
+          "name": "Estimativa ascendente",
+          "items": []
+        },
+        {
+          "name": "Estimativa multiponto",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise alternativa",
+            "Análise de reservas",
+            "Custo da qualidade"
+          ]
+        },
+        {
+          "name": "Sistema de informações de gerenciamento de projetos",
+          "items": []
+        },
+        {
+          "name": "Tomada de decisão",
+          "items": [
+            "Votação"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Estimativas de custo",
+          "items": []
+        },
+        {
+          "name": "Base das estimativas",
+          "items": []
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Registro de lições aprendidas",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": [],
+      "sourceNotes": [
+        "Nome normalizado para \"Estimar os Custos\"; no A0 consta \"Estime os Custos\"."
+      ]
+    },
+    {
+      "id": "4.3",
+      "name": "Desenvolver Orçamento",
+      "domain": "financas",
+      "phase": "planejamento",
+      "position": {
+        "x": 1553,
+        "y": 288,
+        "w": 178,
+        "h": 450
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento financeiro",
+            "Plano de gerenciamento de recursos",
+            "Linha de base do escopo"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Base das estimativas",
+            "Estimativas de custo",
+            "Cronograma do projeto",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Documentos comerciais",
+          "items": [
+            "Caso de negócio",
+            "Plano de gerenciamento de benefícios"
+          ]
+        },
+        {
+          "name": "Acordos",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Agregação de custos",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise de reservas"
+          ]
+        },
+        {
+          "name": "Revisão de informações históricas",
+          "items": []
+        },
+        {
+          "name": "Reconciliação do limite de financiamento",
+          "items": []
+        },
+        {
+          "name": "Financiamento",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Linha de base dos custos",
+          "items": []
+        },
+        {
+          "name": "Requisitos de financiamento do projeto",
+          "items": []
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Estimativas de custo",
+            "Cronograma do projeto",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "4.4",
+      "name": "Monitorar e Controlar as Finanças",
+      "domain": "financas",
+      "phase": "monitoramento-controle",
+      "position": {
+        "x": 2049,
+        "y": 2027,
+        "w": 178,
+        "h": 486
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento financeiro",
+            "Linha de base dos custos",
+            "Linha de base da medição de desempenho"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de lições aprendidas",
+            "Requisitos de financiamento do projeto"
+          ]
+        },
+        {
+          "name": "Dados de desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise de valor agregado",
+            "Análise de tendências",
+            "Análise de reservas"
+          ]
+        },
+        {
+          "name": "Índice de desempenho a ser concluído",
+          "items": []
+        },
+        {
+          "name": "Sistema de informações de gerenciamento de projetos",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Informações sobre o desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Previsões de receita e custo",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Propostas de financiamento",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento financeiro",
+            "Linha de base dos custos",
+            "Linha de base da medição de desempenho"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Base das estimativas",
+            "Estimativas de custo",
+            "Registro de lições aprendidas",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "5.1",
+      "name": "Identificar as Partes Interessadas",
+      "domain": "partes-interessadas",
+      "phase": "iniciacao",
+      "position": {
+        "x": 171,
+        "y": 676,
+        "w": 178,
+        "h": 525
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Documentos comerciais",
+          "items": [
+            "Caso de negócio",
+            "Plano de gerenciamento de benefícios"
+          ]
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento das comunicações",
+            "Plano de engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de alterações",
+            "Registro de questões",
+            "Documentação de requisitos"
+          ]
+        },
+        {
+          "name": "Acordos",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Coleta de dados",
+          "items": [
+            "Questionários e pesquisas",
+            "Brainstorming"
+          ]
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise das partes interessadas",
+            "Análise de documentos"
+          ]
+        },
+        {
+          "name": "Representação de dados",
+          "items": [
+            "Mapeamento/representação das partes inter­ essadas"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Registro das partes interessadas",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento de requisitos",
+            "Plano de gerenciamento das comunicações",
+            "Plano de gerenciamento de riscos",
+            "Plano de engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Registro de questões",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "5.2",
+      "name": "Planejar o Engajamento das Partes Interessadas",
+      "domain": "partes-interessadas",
+      "phase": "planejamento",
+      "position": {
+        "x": 1383,
+        "y": 827,
+        "w": 178,
+        "h": 474
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de recursos",
+            "Plano de gerenciamento das comunicações",
+            "Plano de gerenciamento de riscos"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Registro de alterações",
+            "Registro de questões",
+            "Cronograma do projeto",
+            "Registro de riscos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Acordos",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Coleta de dados",
+          "items": [
+            "Benchmarking"
+          ]
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise de premissas e restrições",
+            "Análise de causa raiz"
+          ]
+        },
+        {
+          "name": "Tomada de decisão",
+          "items": [
+            "Priorização/classificação"
+          ]
+        },
+        {
+          "name": "Representação de dados",
+          "items": [
+            "Mapeamento mental",
+            "Matriz de avaliação do engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "5.3",
+      "name": "Planejar o Gerenciamento das Comunicações",
+      "domain": "partes-interessadas",
+      "phase": "planejamento",
+      "position": {
+        "x": 1383,
+        "y": 1334,
+        "w": 178,
+        "h": 463
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de recursos",
+            "Plano de engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Documentação de requisitos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Análise de requisitos de comunicação",
+          "items": []
+        },
+        {
+          "name": "Tecnologia de comunicação",
+          "items": []
+        },
+        {
+          "name": "Modelos de comunicação",
+          "items": []
+        },
+        {
+          "name": "Métodos de comunicação",
+          "items": []
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Avaliação de estilos de comunicação",
+            "Consciência política",
+            "Consciência cultural"
+          ]
+        },
+        {
+          "name": "Representação de dados",
+          "items": [
+            "Matriz de avaliação do engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento das comunicações",
+            "Plano de engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Cronograma do projeto",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "5.4",
+      "name": "Gerenciar o Engajamento das Partes Interessadas",
+      "domain": "partes-interessadas",
+      "phase": "execucao",
+      "position": {
+        "x": 642,
+        "y": 1878,
+        "w": 178,
+        "h": 516
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento das comunicações",
+            "Plano de gerenciamento de riscos",
+            "Plano de engajamento das partes interessadas",
+            "Plano de gerenciamento de mudanças"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de alterações",
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Registro das partes interessadas",
+            "Registro de riscos",
+            "Relatório de situação",
+            "Cronograma do projeto"
+          ]
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Habilidades de comunicação",
+          "items": [
+            "Feedback"
+          ]
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Gerenciamento de conflitos",
+            "Consciência cultural",
+            "Negociação",
+            "Observação/conversa",
+            "Consciência política"
+          ]
+        },
+        {
+          "name": "Regras básicas",
+          "items": []
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento das comunicações",
+            "Plano de engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de alterações",
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "5.5",
+      "name": "Gerenciar as Comunicações",
+      "domain": "partes-interessadas",
+      "phase": "execucao",
+      "position": {
+        "x": 842,
+        "y": 1878,
+        "w": 178,
+        "h": 600
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de recursos",
+            "Plano de gerenciamento das comunicações",
+            "Plano de engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de alterações",
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Relatório de qualidade",
+            "Relatório de riscos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Relatórios de desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Tecnologia de comunicação",
+          "items": []
+        },
+        {
+          "name": "Métodos de comunicação",
+          "items": []
+        },
+        {
+          "name": "Habilidades de comunicação",
+          "items": [
+            "Competência de comunicação",
+            "Feedback",
+            "Comunicação não verbal",
+            "Apresentações"
+          ]
+        },
+        {
+          "name": "Sistema de informações de gerenciamento de projetos",
+          "items": []
+        },
+        {
+          "name": "Relatório de projeto",
+          "items": []
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Escuta ativa",
+            "Gerenciamento de conflitos",
+            "Consciência cultural",
+            "Gerenciamento de reuniões",
+            "Rede de Contatos",
+            "Consciência política"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Comunicações do projeto",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento das comunicações",
+            "Plano de engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Cronograma do projeto",
+            "Registro de riscos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Atualizações de ativos de processos organizacionais",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "5.6",
+      "name": "Monitorar o Engajamento das Partes Interessadas",
+      "domain": "partes-interessadas",
+      "phase": "monitoramento-controle",
+      "position": {
+        "x": 1130,
+        "y": 2575,
+        "w": 178,
+        "h": 617
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de recursos",
+            "Plano de gerenciamento das comunicações",
+            "Plano de engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Comunicações do projeto",
+            "Registro de riscos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Dados de desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise alternativa",
+            "Análise de causa raiz",
+            "Análise das partes interessadas"
+          ]
+        },
+        {
+          "name": "Tomada de decisão",
+          "items": [
+            "Análise de decisão multicritério",
+            "Votação"
+          ]
+        },
+        {
+          "name": "Representação de dados",
+          "items": [
+            "Matriz de avaliação do engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Habilidades de comunicação",
+          "items": [
+            "Feedback",
+            "Apresentações"
+          ]
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Escuta ativa",
+            "Consciência cultural",
+            "Liderança",
+            "Rede de Contatos",
+            "Consciência política"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Informações sobre o desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento de recursos",
+            "Plano de gerenciamento das comunicações",
+            "Plano de engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Registro de riscos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "5.7",
+      "name": "Monitorar as Comunicações",
+      "domain": "partes-interessadas",
+      "phase": "monitoramento-controle",
+      "position": {
+        "x": 1332,
+        "y": 2575,
+        "w": 178,
+        "h": 468
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de recursos",
+            "Plano de gerenciamento das comunicações",
+            "Plano de engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Comunicações do projeto"
+          ]
+        },
+        {
+          "name": "Dados de desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Sistema de informações de gerenciamento de projetos",
+          "items": []
+        },
+        {
+          "name": "Representação de dados",
+          "items": [
+            "Matriz de avaliação do engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Observação/conversa"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Informações sobre o desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento das comunicações",
+            "Plano de engajamento das partes interessadas"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "6.1",
+      "name": "Planejar o Gerenciamento dos Recursos",
+      "domain": "recursos",
+      "phase": "planejamento",
+      "position": {
+        "x": 1827,
+        "y": 288,
+        "w": 178,
+        "h": 484
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de Gerenciamento da Qualidade",
+            "Linha de base do escopo"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Cronograma do projeto",
+            "Documentação de requisitos",
+            "Registro de riscos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Coleta de dados",
+          "items": [
+            "Entrevistas"
+          ]
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise SWOT"
+          ]
+        },
+        {
+          "name": "Representação de dados",
+          "items": [
+            "Gráficos hierárquicos",
+            "Matriz de atribuição de responsabilidades",
+            "Formatos orientados a texto"
+          ]
+        },
+        {
+          "name": "Teoria organizacional",
+          "items": []
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Gestão de recursos humanos verde",
+          "items": []
+        },
+        {
+          "name": "Visão baseada em recursos",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento de recursos"
+          ]
+        },
+        {
+          "name": "Termo de constituição da equipe",
+          "items": []
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "6.2",
+      "name": "Estimar os Recursos",
+      "domain": "recursos",
+      "phase": "planejamento",
+      "position": {
+        "x": 2029,
+        "y": 288,
+        "w": 178,
+        "h": 578
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de recursos",
+            "Plano de gerenciamento do cronograma",
+            "Linha de base do escopo"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Atributos da atividade",
+            "Lista de atividades",
+            "Registro de premissas",
+            "Estimativas de custo",
+            "Calendários de recursos",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Cronograma do projeto",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Estimativa ascendente",
+          "items": []
+        },
+        {
+          "name": "Estimativa análoga",
+          "items": []
+        },
+        {
+          "name": "Estimativa paramétrica",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise alternativa"
+          ]
+        },
+        {
+          "name": "Sistema de informações de gerenciamento de projetos",
+          "items": []
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Coleta de dados",
+          "items": [
+            "Entrevistas"
+          ]
+        },
+        {
+          "name": "Inteligência artificial",
+          "items": []
+        },
+        {
+          "name": "Análise preditiva",
+          "items": []
+        },
+        {
+          "name": "Realidade virtual",
+          "items": []
+        },
+        {
+          "name": "Realidade aumentada",
+          "items": []
+        },
+        {
+          "name": "Ramificação e delimitação",
+          "items": []
+        },
+        {
+          "name": "Algoritmos genéticos",
+          "items": []
+        },
+        {
+          "name": "Modelo de custo construtivo",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Requisitos de recursos",
+          "items": []
+        },
+        {
+          "name": "Base das estimativas",
+          "items": []
+        },
+        {
+          "name": "Estrutura analítica de recursos",
+          "items": []
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Atributos da atividade",
+            "Registro de premissas",
+            "Registro de lições aprendidas",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "6.3",
+      "name": "Adquirir Recursos",
+      "domain": "recursos",
+      "phase": "execucao",
+      "position": {
+        "x": 176,
+        "y": 1299,
+        "w": 178,
+        "h": 539
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de recursos",
+            "Plano de gerenciamento de aquisições",
+            "Linha de base dos custos"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Cronograma do projeto",
+            "Calendários de recursos",
+            "Requisitos de recursos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Tomada de decisão",
+          "items": [
+            "Análise de decisão multicritério"
+          ]
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Negociação",
+            "Resolução de problemas"
+          ]
+        },
+        {
+          "name": "Pré-atribuição",
+          "items": []
+        },
+        {
+          "name": "Equipes virtuais",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Atribuições de recursos físicos ou virtuais",
+          "items": []
+        },
+        {
+          "name": "Atribuições da equipe do projeto",
+          "items": []
+        },
+        {
+          "name": "Calendários de recursos",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento de recursos",
+            "Linha de base dos custos"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de lições aprendidas",
+            "Cronograma do projeto",
+            "Estrutura analítica de recursos",
+            "Requisitos de recursos",
+            "Registro de riscos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Atualizações de fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Atualizações de ativos de processos organizacionais",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "6.4",
+      "name": "Liderar a Equipe",
+      "domain": "recursos",
+      "phase": "execucao",
+      "position": {
+        "x": 176,
+        "y": 1853,
+        "w": 178,
+        "h": 790
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de recursos"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Cronograma do projeto",
+            "Calendários de recursos",
+            "Termo de constituição da equipe",
+            "Relatórios de desempenho do trabalho",
+            "Atribuições da equipe do projeto"
+          ]
+        },
+        {
+          "name": "Avaliações de desempenho da equipe",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Colocação",
+          "items": []
+        },
+        {
+          "name": "Equipes virtuais",
+          "items": []
+        },
+        {
+          "name": "Tecnologia de comunicação",
+          "items": []
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Gerenciamento de conflitos",
+            "Influenciar",
+            "Motivação",
+            "Negociação",
+            "Formação de equipe",
+            "Tomada de decisão",
+            "Pensamento crítico",
+            "Coaching e mentoria",
+            "Treinamento"
+          ]
+        },
+        {
+          "name": "Resolução de problemas",
+          "items": [
+            "Seis Chapéus do Pensamento®"
+          ]
+        },
+        {
+          "name": "Retrospectivas",
+          "items": []
+        },
+        {
+          "name": "Reconhecimento e recompensas",
+          "items": []
+        },
+        {
+          "name": "Avaliações individuais e em equipe",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise SWOT"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Inteligência emocional",
+          "items": []
+        },
+        {
+          "name": "Inteligência cultural organizacional",
+          "items": []
+        },
+        {
+          "name": "Liderança",
+          "items": [
+            "Gerenciamento e liderança distribuídos",
+            "Gerenciamento e liderança centralizados",
+            "Liderança servidora"
+          ]
+        },
+        {
+          "name": "Escada de Tuckman",
+          "items": []
+        },
+        {
+          "name": "Sistema de informações de gerenciamento de projetos",
+          "items": []
+        },
+        {
+          "name": "Ferramentas de colaboração virtual",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Avaliações de desempenho da equipe",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento de recursos",
+            "Linha de base do cronograma",
+            "Linha de base dos custos"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Cronograma do projeto",
+            "Calendários de recursos",
+            "Termo de constituição da equipe",
+            "Atribuições da equipe do projeto"
+          ]
+        },
+        {
+          "name": "Atualizações de fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Atualizações de ativos de processos organizacionais",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "6.5",
+      "name": "Monitorar e Controlar os Recursos",
+      "domain": "recursos",
+      "phase": "monitoramento-controle",
+      "position": {
+        "x": 2049,
+        "y": 2591,
+        "w": 178,
+        "h": 602
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de recursos"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Atribuições de recursos físicos ou virtuais",
+            "Cronograma do projeto",
+            "Estrutura analítica de recursos",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Dados de desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Acordos",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise alternativa",
+            "Análise de custo-benefício",
+            "Avaliações de desempenho",
+            "Análise de tendências"
+          ]
+        },
+        {
+          "name": "Resolução de problemas",
+          "items": []
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Negociação",
+            "Influenciar"
+          ]
+        },
+        {
+          "name": "Sistema de informações de gerenciamento de projetos",
+          "items": []
+        },
+        {
+          "name": "Mapeamento de fluxo de valor",
+          "items": []
+        },
+        {
+          "name": "Melhoria contínua",
+          "items": []
+        },
+        {
+          "name": "Teoria das restrições",
+          "items": []
+        },
+        {
+          "name": "Gráficos de controle",
+          "items": []
+        },
+        {
+          "name": "Ramificação e delimitação",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Informações sobre o desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento de recursos",
+            "Linha de base do cronograma",
+            "Linha de base dos custos"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Atribuições de recursos físicos",
+            "Estrutura analítica de recursos",
+            "Registro de riscos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": [],
+      "sourceNotes": [
+        "Nome normalizado para \"Monitorar e Controlar os Recursos\"; no A0 consta \"Monitoramento e Controle de Recursos\"."
+      ]
+    },
+    {
+      "id": "7.1",
+      "name": "Planejar o Gerenciamento dos Riscos",
+      "domain": "riscos",
+      "phase": "planejamento",
+      "position": {
+        "x": 1624,
+        "y": 978,
+        "w": 178,
+        "h": 330
+      },
+      "inputs": [
+        {
+          "name": "Termo de abertura do projeto",
+          "items": []
+        },
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Todos os componentes"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Coleta de dados",
+          "items": [
+            "Entrevistas"
+          ]
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise das partes interessadas"
+          ]
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento de riscos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "7.2",
+      "name": "Identificar os Riscos",
+      "domain": "riscos",
+      "phase": "planejamento",
+      "position": {
+        "x": 1827,
+        "y": 1127,
+        "w": 178,
+        "h": 574
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de requisitos",
+            "Plano de gerenciamento do cronograma",
+            "Plano de gerenciamento financeiro",
+            "Plano de Gerenciamento da Qualidade",
+            "Plano de gerenciamento de recursos",
+            "Plano de gerenciamento de riscos",
+            "Linha de base do escopo",
+            "Linha de base do cronograma",
+            "Linha de base dos custos"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Estimativas de custo",
+            "Estimativas de duração",
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Documentação de requisitos",
+            "Requisitos de recursos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Acordos",
+          "items": []
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Coleta de dados",
+          "items": [
+            "Brainstorming",
+            "Listas de verificação",
+            "Entrevistas"
+          ]
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise de causa raiz",
+            "Análise de premissas e restrições",
+            "Análise SWOT",
+            "Análise de documentos"
+          ]
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Facilitação"
+          ]
+        },
+        {
+          "name": "Listas de prompt",
+          "items": []
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Inteligência artificial",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Registro de riscos",
+          "items": []
+        },
+        {
+          "name": "Relatório de riscos",
+          "items": []
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Registro de questões",
+            "Registro de lições aprendidas"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "7.3",
+      "name": "Realizar Análise de Risco",
+      "domain": "riscos",
+      "phase": "planejamento",
+      "position": {
+        "x": 2029,
+        "y": 1184,
+        "w": 178,
+        "h": 481
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de riscos",
+            "Linha de base do escopo",
+            "Linha de base do cronograma",
+            "Linha de base dos custos"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Estimativas de custo",
+            "Estimativas de duração",
+            "Requisitos de recursos",
+            "Registro de riscos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Coleta e análise de dados",
+          "items": [
+            "Entrevistas"
+          ]
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Facilitação"
+          ]
+        },
+        {
+          "name": "Categorização de risco",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Avaliação da probabilidade e do impacto do risco",
+            "Simulações",
+            "Análise de sensibilidade",
+            "Análise de árvore de decisão",
+            "Diagramas de influência"
+          ]
+        },
+        {
+          "name": "Representação de dados",
+          "items": [
+            "Matriz de probabilidade e impacto"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Registro de questões",
+            "Registro de riscos",
+            "Relatório de riscos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "7.4",
+      "name": "Planejar as Respostas aos Riscos",
+      "domain": "riscos",
+      "phase": "planejamento",
+      "position": {
+        "x": 1624,
+        "y": 1327,
+        "w": 178,
+        "h": 615
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de recursos",
+            "Plano de gerenciamento de riscos",
+            "Linha de base dos custos"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de lições aprendidas",
+            "Cronograma do projeto",
+            "Atribuições da equipe do projeto",
+            "Calendários de recursos",
+            "Registro de riscos",
+            "Relatório de riscos",
+            "Registro das partes interessadas"
+          ]
+        },
+        {
+          "name": "Fatores ambientais da organização",
+          "items": []
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Coleta de dados",
+          "items": [
+            "Entrevistas"
+          ]
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Facilitação"
+          ]
+        },
+        {
+          "name": "Estratégias para ameaças",
+          "items": []
+        },
+        {
+          "name": "Estratégias para oportunidades",
+          "items": []
+        },
+        {
+          "name": "Estratégias de resposta contingente",
+          "items": []
+        },
+        {
+          "name": "Estratégias para o risco geral do projeto",
+          "items": []
+        },
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise alternativa",
+            "Análise de custo-benefício"
+          ]
+        },
+        {
+          "name": "Tomada de decisão",
+          "items": [
+            "Análise de decisão multicritério"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Plano de gerenciamento do cronograma",
+            "Plano de gerenciamento financeiro",
+            "Plano de Gerenciamento da Qualidade",
+            "Plano de gerenciamento de recursos",
+            "Plano de gerenciamento de aquisições",
+            "Linha de base do escopo",
+            "Linha de base do cronograma",
+            "Linha de base dos custos"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Previsões de custos",
+            "Registro de lições aprendidas",
+            "Cronograma do projeto",
+            "Atribuições da equipe do projeto",
+            "Registro de riscos",
+            "Relatório de riscos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "7.5",
+      "name": "Implementar Respostas aos Riscos",
+      "domain": "riscos",
+      "phase": "execucao",
+      "position": {
+        "x": 407,
+        "y": 1878,
+        "w": 178,
+        "h": 338
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de riscos"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de lições aprendidas",
+            "Registro de riscos",
+            "Relatório de riscos"
+          ]
+        },
+        {
+          "name": "Ativos de processos da organização",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Julgamento especializado",
+          "items": []
+        },
+        {
+          "name": "Habilidades interpessoais e de equipe",
+          "items": [
+            "Influenciar"
+          ]
+        },
+        {
+          "name": "Sistema de informações de gerenciamento de projetos",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Atribuições da equipe do projeto",
+            "Registro de riscos",
+            "Relatório de riscos"
+          ]
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    },
+    {
+      "id": "7.6",
+      "name": "Monitorar Riscos",
+      "domain": "riscos",
+      "phase": "monitoramento-controle",
+      "position": {
+        "x": 1826,
+        "y": 2756,
+        "w": 178,
+        "h": 434
+      },
+      "inputs": [
+        {
+          "name": "Plano de gerenciamento do projeto",
+          "items": [
+            "Plano de gerenciamento de riscos"
+          ]
+        },
+        {
+          "name": "Documentos do projeto",
+          "items": [
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Registro de riscos",
+            "Relatório de riscos"
+          ]
+        },
+        {
+          "name": "Dados de desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Relatórios de desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "tools": [
+        {
+          "name": "Análise de dados",
+          "items": [
+            "Análise de desempenho técnico",
+            "Análise de reservas"
+          ]
+        },
+        {
+          "name": "Auditorias",
+          "items": []
+        },
+        {
+          "name": "Reuniões",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Informações sobre o desempenho do trabalho",
+          "items": []
+        },
+        {
+          "name": "Solicitações de mudança",
+          "items": []
+        },
+        {
+          "name": "Atualizações do plano de gerenciamento de projetos",
+          "items": [
+            "Qualquer componente"
+          ]
+        },
+        {
+          "name": "Atualizações de documentos do projeto",
+          "items": [
+            "Registro de premissas",
+            "Registro de questões",
+            "Registro de lições aprendidas",
+            "Registro de riscos",
+            "Relatório de riscos"
+          ]
+        },
+        {
+          "name": "Atualizações de ativos de processos organizacionais",
+          "items": []
+        },
+        {
+          "name": "Etc.",
+          "items": []
+        }
+      ],
+      "flags": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "1.1->1.2",
+      "source": "1.1",
+      "target": "1.2",
+      "artifacts": [
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->1.3",
+      "source": "1.1",
+      "target": "1.3",
+      "artifacts": [
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->1.7",
+      "source": "1.1",
+      "target": "1.7",
+      "artifacts": [
+        "Registro de premissas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->1.9",
+      "source": "1.1",
+      "target": "1.9",
+      "artifacts": [
+        "Registro de premissas",
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->2.1",
+      "source": "1.1",
+      "target": "2.1",
+      "artifacts": [
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->2.2",
+      "source": "1.1",
+      "target": "2.2",
+      "artifacts": [
+        "Registro de premissas",
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->2.3",
+      "source": "1.1",
+      "target": "2.3",
+      "artifacts": [
+        "Registro de premissas",
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->3.1",
+      "source": "1.1",
+      "target": "3.1",
+      "artifacts": [
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->3.2",
+      "source": "1.1",
+      "target": "3.2",
+      "artifacts": [
+        "Registro de premissas",
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->4.1",
+      "source": "1.1",
+      "target": "4.1",
+      "artifacts": [
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->5.1",
+      "source": "1.1",
+      "target": "5.1",
+      "artifacts": [
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->5.2",
+      "source": "1.1",
+      "target": "5.2",
+      "artifacts": [
+        "Registro de premissas",
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->5.3",
+      "source": "1.1",
+      "target": "5.3",
+      "artifacts": [
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->6.1",
+      "source": "1.1",
+      "target": "6.1",
+      "artifacts": [
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->6.2",
+      "source": "1.1",
+      "target": "6.2",
+      "artifacts": [
+        "Registro de premissas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->7.1",
+      "source": "1.1",
+      "target": "7.1",
+      "artifacts": [
+        "Termo de abertura do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->7.2",
+      "source": "1.1",
+      "target": "7.2",
+      "artifacts": [
+        "Registro de premissas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.1->7.3",
+      "source": "1.1",
+      "target": "7.3",
+      "artifacts": [
+        "Registro de premissas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->1.6",
+      "source": "1.4",
+      "target": "1.6",
+      "artifacts": [
+        "Entregas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->1.7",
+      "source": "1.4",
+      "target": "1.7",
+      "artifacts": [
+        "Registro de questões"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->1.8",
+      "source": "1.4",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->1.9",
+      "source": "1.4",
+      "target": "1.9",
+      "artifacts": [
+        "Registro de questões"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->2.5",
+      "source": "1.4",
+      "target": "2.5",
+      "artifacts": [
+        "Entregas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->2.6",
+      "source": "1.4",
+      "target": "2.6",
+      "artifacts": [
+        "Dados de desempenho do trabalho"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->3.3",
+      "source": "1.4",
+      "target": "3.3",
+      "artifacts": [
+        "Dados de desempenho do trabalho"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->4.4",
+      "source": "1.4",
+      "target": "4.4",
+      "artifacts": [
+        "Dados de desempenho do trabalho"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->5.1",
+      "source": "1.4",
+      "target": "5.1",
+      "artifacts": [
+        "Registro de questões"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->5.2",
+      "source": "1.4",
+      "target": "5.2",
+      "artifacts": [
+        "Registro de questões"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->5.4",
+      "source": "1.4",
+      "target": "5.4",
+      "artifacts": [
+        "Registro de questões"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->5.5",
+      "source": "1.4",
+      "target": "5.5",
+      "artifacts": [
+        "Registro de questões"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->5.6",
+      "source": "1.4",
+      "target": "5.6",
+      "artifacts": [
+        "Dados de desempenho do trabalho",
+        "Registro de questões"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->5.7",
+      "source": "1.4",
+      "target": "5.7",
+      "artifacts": [
+        "Dados de desempenho do trabalho",
+        "Registro de questões"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->6.4",
+      "source": "1.4",
+      "target": "6.4",
+      "artifacts": [
+        "Registro de questões"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->6.5",
+      "source": "1.4",
+      "target": "6.5",
+      "artifacts": [
+        "Dados de desempenho do trabalho",
+        "Registro de questões"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->7.2",
+      "source": "1.4",
+      "target": "7.2",
+      "artifacts": [
+        "Registro de questões"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.4->7.6",
+      "source": "1.4",
+      "target": "7.6",
+      "artifacts": [
+        "Dados de desempenho do trabalho",
+        "Registro de questões"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.5->1.7",
+      "source": "1.5",
+      "target": "1.7",
+      "artifacts": [
+        "Relatórios de qualidade"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.5->1.8",
+      "source": "1.5",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.5->1.9",
+      "source": "1.5",
+      "target": "1.9",
+      "artifacts": [
+        "Relatórios de qualidade"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.5->2.6",
+      "source": "1.5",
+      "target": "2.6",
+      "artifacts": [
+        "Relatórios de qualidade"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->1.4",
+      "source": "1.6",
+      "target": "1.4",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->1.7",
+      "source": "1.6",
+      "target": "1.7",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->1.9",
+      "source": "1.6",
+      "target": "1.9",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->2.2",
+      "source": "1.6",
+      "target": "2.2",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->3.2",
+      "source": "1.6",
+      "target": "3.2",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->3.3",
+      "source": "1.6",
+      "target": "3.3",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->4.2",
+      "source": "1.6",
+      "target": "4.2",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->4.4",
+      "source": "1.6",
+      "target": "4.4",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->5.4",
+      "source": "1.6",
+      "target": "5.4",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->5.5",
+      "source": "1.6",
+      "target": "5.5",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->5.6",
+      "source": "1.6",
+      "target": "5.6",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->5.7",
+      "source": "1.6",
+      "target": "5.7",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->6.4",
+      "source": "1.6",
+      "target": "6.4",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->6.5",
+      "source": "1.6",
+      "target": "6.5",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->7.2",
+      "source": "1.6",
+      "target": "7.2",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->7.4",
+      "source": "1.6",
+      "target": "7.4",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->7.5",
+      "source": "1.6",
+      "target": "7.5",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.6->7.6",
+      "source": "1.6",
+      "target": "7.6",
+      "artifacts": [
+        "Registro de lições aprendidas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.7->1.8",
+      "source": "1.7",
+      "target": "1.8",
+      "artifacts": [
+        "Relatórios de desempenho do trabalho",
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.7->5.5",
+      "source": "1.7",
+      "target": "5.5",
+      "artifacts": [
+        "Relatórios de desempenho do trabalho"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.7->6.4",
+      "source": "1.7",
+      "target": "6.4",
+      "artifacts": [
+        "Relatórios de desempenho do trabalho"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.7->7.6",
+      "source": "1.7",
+      "target": "7.6",
+      "artifacts": [
+        "Relatórios de desempenho do trabalho"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.8->1.4",
+      "source": "1.8",
+      "target": "1.4",
+      "artifacts": [
+        "Solicitações de mudanças aprovadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "1.8->2.5",
+      "source": "1.8",
+      "target": "2.5",
+      "artifacts": [
+        "Solicitações de mudanças aprovadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.2->1.3",
+      "source": "2.2",
+      "target": "1.3",
+      "artifacts": [
+        "Documentação de requisitos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.2->1.9",
+      "source": "2.2",
+      "target": "1.9",
+      "artifacts": [
+        "Documentação de requisitos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.2->2.1",
+      "source": "2.2",
+      "target": "2.1",
+      "artifacts": [
+        "Documentação de requisitos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.2->2.3",
+      "source": "2.2",
+      "target": "2.3",
+      "artifacts": [
+        "Documentação de requisitos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.2->2.4",
+      "source": "2.2",
+      "target": "2.4",
+      "artifacts": [
+        "Documentação de requisitos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.2->2.5",
+      "source": "2.2",
+      "target": "2.5",
+      "artifacts": [
+        "Documentação de requisitos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.2->2.6",
+      "source": "2.2",
+      "target": "2.6",
+      "artifacts": [
+        "Documentação de requisitos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.2->5.1",
+      "source": "2.2",
+      "target": "5.1",
+      "artifacts": [
+        "Documentação de requisitos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.2->5.3",
+      "source": "2.2",
+      "target": "5.3",
+      "artifacts": [
+        "Documentação de requisitos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.2->6.1",
+      "source": "2.2",
+      "target": "6.1",
+      "artifacts": [
+        "Documentação de requisitos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.2->7.2",
+      "source": "2.2",
+      "target": "7.2",
+      "artifacts": [
+        "Documentação de requisitos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.4->1.3",
+      "source": "2.4",
+      "target": "1.3",
+      "artifacts": [
+        "Linha de base do escopo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.4->1.8",
+      "source": "2.4",
+      "target": "1.8",
+      "artifacts": [
+        "Linha de base do escopo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.4->2.6",
+      "source": "2.4",
+      "target": "2.6",
+      "artifacts": [
+        "Linha de base do escopo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.4->3.3",
+      "source": "2.4",
+      "target": "3.3",
+      "artifacts": [
+        "Backlog de produto",
+        "Linha de base do escopo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.4->4.2",
+      "source": "2.4",
+      "target": "4.2",
+      "artifacts": [
+        "Linha de base do escopo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.4->4.3",
+      "source": "2.4",
+      "target": "4.3",
+      "artifacts": [
+        "Linha de base do escopo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.4->6.1",
+      "source": "2.4",
+      "target": "6.1",
+      "artifacts": [
+        "Linha de base do escopo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.4->6.2",
+      "source": "2.4",
+      "target": "6.2",
+      "artifacts": [
+        "Linha de base do escopo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.4->7.2",
+      "source": "2.4",
+      "target": "7.2",
+      "artifacts": [
+        "Linha de base do escopo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.4->7.3",
+      "source": "2.4",
+      "target": "7.3",
+      "artifacts": [
+        "Linha de base do escopo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.5->1.7",
+      "source": "2.5",
+      "target": "1.7",
+      "artifacts": [
+        "Informações sobre o desempenho do trabalho",
+        "Relatórios de qualidade"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.5->1.8",
+      "source": "2.5",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.5->1.9",
+      "source": "2.5",
+      "target": "1.9",
+      "artifacts": [
+        "Medições de controle de qualidade",
+        "Relatórios de qualidade"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.5->2.6",
+      "source": "2.5",
+      "target": "2.6",
+      "artifacts": [
+        "Entregas verificadas",
+        "Medições de controle de qualidade",
+        "Relatórios de qualidade"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.6->1.8",
+      "source": "2.6",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "2.6->1.9",
+      "source": "2.6",
+      "target": "1.9",
+      "artifacts": [
+        "Entregas aceitas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->1.4",
+      "source": "3.2",
+      "target": "1.4",
+      "artifacts": [
+        "Cronograma do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->1.8",
+      "source": "3.2",
+      "target": "1.8",
+      "artifacts": [
+        "Linha de base do cronograma",
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->3.3",
+      "source": "3.2",
+      "target": "3.3",
+      "artifacts": [
+        "Calendários do projeto",
+        "Cronograma do projeto",
+        "Dados do cronograma"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->4.2",
+      "source": "3.2",
+      "target": "4.2",
+      "artifacts": [
+        "Cronograma do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->4.3",
+      "source": "3.2",
+      "target": "4.3",
+      "artifacts": [
+        "Cronograma do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->5.2",
+      "source": "3.2",
+      "target": "5.2",
+      "artifacts": [
+        "Cronograma do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->5.4",
+      "source": "3.2",
+      "target": "5.4",
+      "artifacts": [
+        "Cronograma do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->6.1",
+      "source": "3.2",
+      "target": "6.1",
+      "artifacts": [
+        "Cronograma do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->6.2",
+      "source": "3.2",
+      "target": "6.2",
+      "artifacts": [
+        "Cronograma do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->6.3",
+      "source": "3.2",
+      "target": "6.3",
+      "artifacts": [
+        "Cronograma do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->6.4",
+      "source": "3.2",
+      "target": "6.4",
+      "artifacts": [
+        "Cronograma do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->6.5",
+      "source": "3.2",
+      "target": "6.5",
+      "artifacts": [
+        "Cronograma do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->7.2",
+      "source": "3.2",
+      "target": "7.2",
+      "artifacts": [
+        "Linha de base do cronograma"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->7.3",
+      "source": "3.2",
+      "target": "7.3",
+      "artifacts": [
+        "Linha de base do cronograma"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.2->7.4",
+      "source": "3.2",
+      "target": "7.4",
+      "artifacts": [
+        "Cronograma do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.3->1.7",
+      "source": "3.3",
+      "target": "1.7",
+      "artifacts": [
+        "Informações sobre o desempenho do trabalho",
+        "Previsões de cronograma"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "3.3->1.8",
+      "source": "3.3",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.1->1.3",
+      "source": "4.1",
+      "target": "1.3",
+      "artifacts": [
+        "Plano de gerenciamento financeiro"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.1->4.3",
+      "source": "4.1",
+      "target": "4.3",
+      "artifacts": [
+        "Plano de gerenciamento financeiro"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.1->4.4",
+      "source": "4.1",
+      "target": "4.4",
+      "artifacts": [
+        "Plano de gerenciamento financeiro"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.1->7.2",
+      "source": "4.1",
+      "target": "7.2",
+      "artifacts": [
+        "Plano de gerenciamento financeiro"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.2->1.7",
+      "source": "4.2",
+      "target": "1.7",
+      "artifacts": [
+        "Base das estimativas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.2->1.8",
+      "source": "4.2",
+      "target": "1.8",
+      "artifacts": [
+        "Base das estimativas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.2->1.9",
+      "source": "4.2",
+      "target": "1.9",
+      "artifacts": [
+        "Base das estimativas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.2->3.2",
+      "source": "4.2",
+      "target": "3.2",
+      "artifacts": [
+        "Base das estimativas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.2->4.3",
+      "source": "4.2",
+      "target": "4.3",
+      "artifacts": [
+        "Base das estimativas",
+        "Estimativas de custo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.2->6.2",
+      "source": "4.2",
+      "target": "6.2",
+      "artifacts": [
+        "Estimativas de custo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.2->7.2",
+      "source": "4.2",
+      "target": "7.2",
+      "artifacts": [
+        "Estimativas de custo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.2->7.3",
+      "source": "4.2",
+      "target": "7.3",
+      "artifacts": [
+        "Estimativas de custo"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.3->1.8",
+      "source": "4.3",
+      "target": "1.8",
+      "artifacts": [
+        "Linha de base dos custos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.3->4.4",
+      "source": "4.3",
+      "target": "4.4",
+      "artifacts": [
+        "Linha de base dos custos",
+        "Requisitos de financiamento do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.3->6.3",
+      "source": "4.3",
+      "target": "6.3",
+      "artifacts": [
+        "Linha de base dos custos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.3->7.2",
+      "source": "4.3",
+      "target": "7.2",
+      "artifacts": [
+        "Linha de base dos custos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.3->7.3",
+      "source": "4.3",
+      "target": "7.3",
+      "artifacts": [
+        "Linha de base dos custos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.3->7.4",
+      "source": "4.3",
+      "target": "7.4",
+      "artifacts": [
+        "Linha de base dos custos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.4->1.7",
+      "source": "4.4",
+      "target": "1.7",
+      "artifacts": [
+        "Informações sobre o desempenho do trabalho"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "4.4->1.8",
+      "source": "4.4",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->1.3",
+      "source": "5.1",
+      "target": "1.3",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->1.6",
+      "source": "5.1",
+      "target": "1.6",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->1.8",
+      "source": "5.1",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->2.1",
+      "source": "5.1",
+      "target": "2.1",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->2.2",
+      "source": "5.1",
+      "target": "2.2",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->5.2",
+      "source": "5.1",
+      "target": "5.2",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->5.3",
+      "source": "5.1",
+      "target": "5.3",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->5.4",
+      "source": "5.1",
+      "target": "5.4",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->5.5",
+      "source": "5.1",
+      "target": "5.5",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->5.6",
+      "source": "5.1",
+      "target": "5.6",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->6.1",
+      "source": "5.1",
+      "target": "6.1",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->6.3",
+      "source": "5.1",
+      "target": "6.3",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->7.1",
+      "source": "5.1",
+      "target": "7.1",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->7.2",
+      "source": "5.1",
+      "target": "7.2",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->7.3",
+      "source": "5.1",
+      "target": "7.3",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.1->7.4",
+      "source": "5.1",
+      "target": "7.4",
+      "artifacts": [
+        "Registro das partes interessadas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.4->1.8",
+      "source": "5.4",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.5->1.4",
+      "source": "5.5",
+      "target": "1.4",
+      "artifacts": [
+        "Comunicações do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.5->1.9",
+      "source": "5.5",
+      "target": "1.9",
+      "artifacts": [
+        "Comunicações do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.5->5.6",
+      "source": "5.5",
+      "target": "5.6",
+      "artifacts": [
+        "Comunicações do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.5->5.7",
+      "source": "5.5",
+      "target": "5.7",
+      "artifacts": [
+        "Comunicações do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.6->1.7",
+      "source": "5.6",
+      "target": "1.7",
+      "artifacts": [
+        "Informações sobre o desempenho do trabalho"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.6->1.8",
+      "source": "5.6",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.7->1.7",
+      "source": "5.7",
+      "target": "1.7",
+      "artifacts": [
+        "Informações sobre o desempenho do trabalho"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "5.7->1.8",
+      "source": "5.7",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.1->6.4",
+      "source": "6.1",
+      "target": "6.4",
+      "artifacts": [
+        "Termo de constituição da equipe"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.2->1.3",
+      "source": "6.2",
+      "target": "1.3",
+      "artifacts": [
+        "Requisitos de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.2->1.6",
+      "source": "6.2",
+      "target": "1.6",
+      "artifacts": [
+        "Estrutura analítica de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.2->1.7",
+      "source": "6.2",
+      "target": "1.7",
+      "artifacts": [
+        "Base das estimativas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.2->1.8",
+      "source": "6.2",
+      "target": "1.8",
+      "artifacts": [
+        "Base das estimativas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.2->1.9",
+      "source": "6.2",
+      "target": "1.9",
+      "artifacts": [
+        "Base das estimativas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.2->3.2",
+      "source": "6.2",
+      "target": "3.2",
+      "artifacts": [
+        "Base das estimativas",
+        "Requisitos de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.2->4.2",
+      "source": "6.2",
+      "target": "4.2",
+      "artifacts": [
+        "Requisitos de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.2->4.3",
+      "source": "6.2",
+      "target": "4.3",
+      "artifacts": [
+        "Base das estimativas"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.2->6.3",
+      "source": "6.2",
+      "target": "6.3",
+      "artifacts": [
+        "Requisitos de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.2->6.5",
+      "source": "6.2",
+      "target": "6.5",
+      "artifacts": [
+        "Estrutura analítica de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.2->7.2",
+      "source": "6.2",
+      "target": "7.2",
+      "artifacts": [
+        "Requisitos de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.2->7.3",
+      "source": "6.2",
+      "target": "7.3",
+      "artifacts": [
+        "Requisitos de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.3->1.3",
+      "source": "6.3",
+      "target": "1.3",
+      "artifacts": [
+        "Atribuições da equipe do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.3->1.6",
+      "source": "6.3",
+      "target": "1.6",
+      "artifacts": [
+        "Atribuições da equipe do projeto"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.3->1.8",
+      "source": "6.3",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.3->3.2",
+      "source": "6.3",
+      "target": "3.2",
+      "artifacts": [
+        "Atribuições da equipe do projeto",
+        "Calendários de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.3->3.3",
+      "source": "6.3",
+      "target": "3.3",
+      "artifacts": [
+        "Calendários de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.3->6.2",
+      "source": "6.3",
+      "target": "6.2",
+      "artifacts": [
+        "Calendários de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.3->6.4",
+      "source": "6.3",
+      "target": "6.4",
+      "artifacts": [
+        "Atribuições da equipe do projeto",
+        "Calendários de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.3->6.5",
+      "source": "6.3",
+      "target": "6.5",
+      "artifacts": [
+        "Atribuições de recursos físicos ou virtuais"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.3->7.4",
+      "source": "6.3",
+      "target": "7.4",
+      "artifacts": [
+        "Atribuições da equipe do projeto",
+        "Calendários de recursos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.4->1.8",
+      "source": "6.4",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.5->1.7",
+      "source": "6.5",
+      "target": "1.7",
+      "artifacts": [
+        "Informações sobre o desempenho do trabalho"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "6.5->1.8",
+      "source": "6.5",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->1.3",
+      "source": "7.2",
+      "target": "1.3",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->1.4",
+      "source": "7.2",
+      "target": "1.4",
+      "artifacts": [
+        "Registro de riscos",
+        "Relatório de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->1.7",
+      "source": "7.2",
+      "target": "1.7",
+      "artifacts": [
+        "Registro de riscos",
+        "Relatório de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->1.8",
+      "source": "7.2",
+      "target": "1.8",
+      "artifacts": [
+        "Relatório de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->1.9",
+      "source": "7.2",
+      "target": "1.9",
+      "artifacts": [
+        "Registro de riscos",
+        "Relatório de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->2.1",
+      "source": "7.2",
+      "target": "2.1",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->3.2",
+      "source": "7.2",
+      "target": "3.2",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->3.3",
+      "source": "7.2",
+      "target": "3.3",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->4.2",
+      "source": "7.2",
+      "target": "4.2",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->4.3",
+      "source": "7.2",
+      "target": "4.3",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->5.2",
+      "source": "7.2",
+      "target": "5.2",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->5.4",
+      "source": "7.2",
+      "target": "5.4",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->5.5",
+      "source": "7.2",
+      "target": "5.5",
+      "artifacts": [
+        "Relatório de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->5.6",
+      "source": "7.2",
+      "target": "5.6",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->6.1",
+      "source": "7.2",
+      "target": "6.1",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->6.2",
+      "source": "7.2",
+      "target": "6.2",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->6.5",
+      "source": "7.2",
+      "target": "6.5",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->7.3",
+      "source": "7.2",
+      "target": "7.3",
+      "artifacts": [
+        "Registro de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->7.4",
+      "source": "7.2",
+      "target": "7.4",
+      "artifacts": [
+        "Registro de riscos",
+        "Relatório de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->7.5",
+      "source": "7.2",
+      "target": "7.5",
+      "artifacts": [
+        "Registro de riscos",
+        "Relatório de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.2->7.6",
+      "source": "7.2",
+      "target": "7.6",
+      "artifacts": [
+        "Registro de riscos",
+        "Relatório de riscos"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.4->1.8",
+      "source": "7.4",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.5->1.8",
+      "source": "7.5",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.6->1.7",
+      "source": "7.6",
+      "target": "1.7",
+      "artifacts": [
+        "Informações sobre o desempenho do trabalho"
+      ],
+      "basis": "artifact-match"
+    },
+    {
+      "id": "7.6->1.8",
+      "source": "7.6",
+      "target": "1.8",
+      "artifacts": [
+        "Solicitações de mudança"
+      ],
+      "basis": "artifact-match"
+    }
+  ],
+  "a0Connectors": [
+    { "id": "a0:1.1--5.1", "processes": ["1.1", "5.1"] },
+    { "id": "a0:1.2--1.3", "processes": ["1.2", "1.3"] },
+    { "id": "a0:1.2--2.2", "processes": ["1.2", "2.2"] },
+    { "id": "a0:1.2--4.1", "processes": ["1.2", "4.1"] },
+    { "id": "a0:1.3--3.1", "processes": ["1.3", "3.1"] },
+    { "id": "a0:1.3--5.2", "processes": ["1.3", "5.2"] },
+    { "id": "a0:1.3--6.1", "processes": ["1.3", "6.1"] },
+    { "id": "a0:1.3--7.1", "processes": ["1.3", "7.1"] },
+    { "id": "a0:1.4--1.5", "processes": ["1.4", "1.5"] },
+    { "id": "a0:1.4--6.3", "processes": ["1.4", "6.3"] },
+    { "id": "a0:1.4--7.5", "processes": ["1.4", "7.5"] },
+    { "id": "a0:1.5--1.6", "processes": ["1.5", "1.6"] },
+    { "id": "a0:1.6--5.5", "processes": ["1.6", "5.5"] },
+    { "id": "a0:1.7--1.8", "processes": ["1.7", "1.8"] },
+    { "id": "a0:1.7--2.6", "processes": ["1.7", "2.6"] },
+    { "id": "a0:1.7--3.3", "processes": ["1.7", "3.3"] },
+    { "id": "a0:1.8--4.4", "processes": ["1.8", "4.4"] },
+    { "id": "a0:1.8--5.7", "processes": ["1.8", "5.7"] },
+    { "id": "a0:1.8--6.5", "processes": ["1.8", "6.5"] },
+    { "id": "a0:1.8--7.6", "processes": ["1.8", "7.6"] },
+    { "id": "a0:2.1--2.2", "processes": ["2.1", "2.2"] },
+    { "id": "a0:2.2--2.3", "processes": ["2.2", "2.3"] },
+    { "id": "a0:2.3--2.4", "processes": ["2.3", "2.4"] },
+    { "id": "a0:2.5--2.6", "processes": ["2.5", "2.6"] },
+    { "id": "a0:3.1--3.2", "processes": ["3.1", "3.2"] },
+    { "id": "a0:4.1--4.2", "processes": ["4.1", "4.2"] },
+    { "id": "a0:4.2--4.3", "processes": ["4.2", "4.3"] },
+    { "id": "a0:5.2--5.3", "processes": ["5.2", "5.3"] },
+    { "id": "a0:5.4--5.5", "processes": ["5.4", "5.5"] },
+    { "id": "a0:5.6--5.7", "processes": ["5.6", "5.7"] },
+    { "id": "a0:6.1--6.2", "processes": ["6.1", "6.2"] },
+    { "id": "a0:6.3--6.4", "processes": ["6.3", "6.4"] },
+    { "id": "a0:7.1--7.2", "processes": ["7.1", "7.2"] },
+    { "id": "a0:7.1--7.3", "processes": ["7.1", "7.3"] },
+    { "id": "a0:7.1--7.4", "processes": ["7.1", "7.4"] },
+    { "id": "a0:7.2--7.3", "processes": ["7.2", "7.3"] },
+    { "id": "a0:7.2--7.4", "processes": ["7.2", "7.4"] },
+    { "id": "a0:7.3--7.4", "processes": ["7.3", "7.4"] }
+  ],
+  "edgesNote": "As conexões entre processos são inferidas quando uma saída nomeada aparece como entrada de outro processo. Itens genéricos, como fatores ambientais, ativos organizacionais, \"Etc.\" e atualizações, foram ignorados."
+}

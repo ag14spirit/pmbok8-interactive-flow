@@ -2,6 +2,8 @@
 
 Uma ferramenta educacional para explorar os 40 processos do Guia PMBOK® 8, estudar suas relações e criar fluxos próprios.
 
+**[Acessar o projeto online](https://rodrigochavesoa.github.io/pmbok8-interactive-flow/)** · Use o app no navegador, sem instalação.
+
 [![Next.js 15.5](https://img.shields.io/badge/Next.js-15.5-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![React 19](https://img.shields.io/badge/React-19-149eca?logo=react&logoColor=white)](https://react.dev/)
 [![TypeScript 5](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)

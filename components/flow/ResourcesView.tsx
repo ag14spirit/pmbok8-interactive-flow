@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { publicAssetPath } from "@/lib/publicAssetPath";
 import type { ReactNode } from "react";
 import { ArrowUpRight, BookOpen, GraduationCap, PlayCircle, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -37,7 +38,7 @@ export function ResourcesView() {
           <article className="flex min-w-0 flex-col gap-5 overflow-hidden rounded-[24px] border bg-card p-4 shadow-[var(--shadow-card)] xl:flex-row xl:items-center xl:p-6">
             <div className="flex min-w-0 justify-center rounded-2xl bg-[#211044] p-2 xl:w-[42%] xl:shrink-0">
               <Image
-                src="/resources/pmbok8-portugues-divulgacao.png"
+                src={publicAssetPath("/resources/pmbok8-portugues-divulgacao.png")}
                 alt="Divulgação da edição em português do Guia PMBOK® 8ª edição, com a capa do livro"
                 width={400}
                 height={500}

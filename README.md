@@ -41,6 +41,12 @@ Uma ferramenta educacional para explorar os 40 processos do Guia PMBOK® 8, estu
 
 Outros scripts: `npm run build`, `npm run lint`, `npm run typecheck`.
 
+## Publicar no GitHub Pages
+
+O workflow do GitHub Actions valida a exportação estática em pull requests e publica após o merge na `main`. Para ativar a publicação, em **Settings → Pages**, escolha **GitHub Actions** como fonte. O site do repositório ficará em `https://rodrigochavesoa.github.io/pmbok8-interactive-flow/`.
+
+A publicação usa o mesmo app e não altera o modo local. O build do Pages é opt-in e configurado apenas pelo workflow. Projetos e progresso ficam no armazenamento do navegador: cada origem tem seus próprios dados, então `localhost` e o site publicado não compartilham automaticamente o conteúdo. A importação e exportação de projetos continuam disponíveis para transferência manual.
+
 ## Estrutura
 - `data/processes.json`: princípios, domínios, fases, 40 processos (com entradas, ferramentas, saídas, `flags` e notas de normalização), `a0Connectors` e `edges`.
 - `lib/data/ProcessRepository.ts`: interface para o conteúdo de referência do fluxo. `JsonProcessRepository.ts` é a implementação atual, e `index.ts` escolhe o adapter. `lib/projects/` separa o modelo versionado dos projetos e sua persistência local para permitir outro adaptador no futuro.

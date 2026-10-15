@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Image from "next/image";
+import { publicAssetPath } from "@/lib/publicAssetPath";
 import { LayoutGrid, Network, Search, ScanLine, BriefcaseBusiness, BookOpen, Menu } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -71,7 +72,7 @@ export function FlowApp({ data }: { data: FlowData }) {
       <header className="sticky top-0 z-20 border-b bg-card/90 backdrop-blur-[18px]">
         <div className="flex flex-col gap-2 px-3 py-2 sm:px-4 sm:py-3 md:px-6">
           <div className="flex w-full min-w-0 items-center gap-2 sm:gap-3">
-            <Image src="/brand/simbolo-infinito.png" alt="" width={28} height={28} className="h-7 w-auto" priority />
+            <Image src={publicAssetPath("/brand/simbolo-infinito.png")} alt="" width={28} height={28} className="h-7 w-auto" priority />
             <div className="min-w-0 flex-1">
               <p className="eyebrow leading-none">Fluxo de processos · PMBOK® 8</p>
               <h1 className="truncate text-base leading-tight font-[760] tracking-[-0.035em] sm:text-lg">
@@ -161,7 +162,7 @@ export function FlowApp({ data }: { data: FlowData }) {
       <footer className="flex flex-wrap items-center justify-between gap-2 border-t bg-card px-4 py-2 text-[11px] text-[#6b7684] md:px-6">
         <span>{view === "projetos" ? "Catálogo de referência: PMI, Guia PMBOK® 8ª ed. · Fluxo adaptado por Ricardo Vargas. Este app não substitui a leitura do Guia." : "Fonte: PMI, Guia PMBOK® 8ª ed. · Fluxo adaptado por Ricardo Vargas. Não substitui a leitura do Guia."}</span>
         <span className="flex items-center gap-2">
-          <Image src="/brand/simbolo-infinito.png" alt="" width={18} height={18} className="h-[18px] w-auto" />
+          <Image src={publicAssetPath("/brand/simbolo-infinito.png")} alt="" width={18} height={18} className="h-[18px] w-auto" />
           <span className="signature text-[13px]">@colabdeveloper</span>
         </span>
       </footer>

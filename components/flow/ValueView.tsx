@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
+import { publicAssetPath } from "@/lib/publicAssetPath";
 import { Expand, Minimize, MonitorUp } from "lucide-react";
 import type { DomainId, FlowData } from "@/lib/data/types";
 import { requestElementFullscreen } from "@/lib/fullscreen.mjs";
@@ -139,7 +140,7 @@ export function ValueView({ data, visibleIds, activeDomains, onToggleDomain, onF
             </button>
           </div>}
           <div className="value-poster relative mx-auto aspect-[841.89/1190.55] w-full min-w-[700px] max-w-[1050px]">
-            <Image src="/orientado-por-valor.png" alt="Fluxo de processos orientado por valor, conforme a prancha A3 de Ricardo Vargas" fill sizes="(max-width: 700px) 700px, 100vw" className="object-fill" priority unoptimized />
+            <Image src={publicAssetPath("/orientado-por-valor.png")} alt="Fluxo de processos orientado por valor, conforme a prancha A3 de Ricardo Vargas" fill sizes="(max-width: 700px) 700px, 100vw" className="object-fill" priority unoptimized />
             {data.processes.map((process) => {
               const area = CARD_AREAS[process.id];
               if (!area) return null;

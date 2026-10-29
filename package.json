@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "test:fullscreen": "node --test lib/fullscreen.test.mjs"
+    "test:fullscreen": "node --test lib/fullscreen.test.mjs",
+    "test:data": "node --test lib/data/processes.test.mjs"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",

@@ -1,34 +1,38 @@
-# Manutenção dos dados do A0
+# A0 data maintenance
 
-Esta página é destinada a quem mantém o conteúdo do projeto. **Não é necessário seguir estes passos para instalar ou usar o app.** A aplicação lê os dados estáticos de `data/processes.json`.
+This page is for people who maintain the project's content. **You do not need to follow these steps to install or use the app.** The application reads the static data in `data/processes.json`.
 
-## Quando usar
+## English data in this fork
 
-Use os scripts apenas se o PDF-fonte A0 mudar e for necessário extrair novamente os processos ou recalcular as conexões inferidas.
+In this English-only fork, `data/processes.json` is hand-maintained English. It was translated from the Portuguese A0 data in a one-shot run using `scripts/i18n/glossary.json` and `glossary.py`. `scripts/extract_a0.py` and `scripts/build_edges.py` are legacy tools for the Portuguese source: they match Portuguese patterns, so do not re-run them against the English data. Edges are validated by an edge-consistency check in `scripts/i18n`. The sections below describe the legacy Portuguese workflow.
 
-## Extrair os processos do PDF
+## When to use
 
-Execute os comandos a partir da raiz do projeto. O extrator usa PyMuPDF e recebe o caminho do PDF A0 em português:
+Use the scripts only if the A0 source PDF changes and you need to extract the processes again or recalculate the inferred connections.
+
+## Extract the processes from the PDF
+
+Run the commands from the project root. The extractor uses PyMuPDF and takes the path to the Portuguese A0 PDF:
 
 ```sh
 python -m pip install pymupdf
-python scripts/extract_a0.py "<caminho-para-o-PDF-A0>"
+python scripts/extract_a0.py "<path-to-A0-PDF>"
 ```
 
-Se o comando `python` não apontar para Python 3, use o nome do executável Python 3 disponível no sistema.
+If the `python` command does not point to Python 3, use the name of the Python 3 executable available on your system.
 
-Por padrão, o resultado é escrito em `data/processes.generated.json`, sem substituir `data/processes.json`. O arquivo gerado mantém os metadados do dataset-base, reaplica as normalizações dos cartões 2.4, 4.2 e 6.5, preserva `a0Connectors` e recalcula as conexões inferidas. O dataset-base precisa conter `a0Connectors`; se não contiver, o script interrompe antes de gravar.
+By default, the result is written to `data/processes.generated.json`, without replacing `data/processes.json`. The generated file keeps the base dataset's metadata, reapplies the normalizations of cards 2.4, 4.2 and 6.5, preserves `a0Connectors` and recalculates the inferred connections. The base dataset must contain `a0Connectors`; if it does not, the script stops before writing.
 
-Revise o arquivo gerado antes de usá-lo como dataset principal. A extração depende da estrutura visual e textual do PDF e deve ser conferida quando a fonte mudar.
+Review the generated file before using it as the main dataset. The extraction depends on the PDF's visual and textual structure and should be checked whenever the source changes.
 
-## Recalcular conexões inferidas
+## Recalculate inferred connections
 
-Para gerar uma cópia revisada sem alterar o dataset principal:
+To generate a reviewed copy without changing the main dataset:
 
 ```sh
 python scripts/build_edges.py data/processes.json data/processes.generated.json
 ```
 
-Quando a entrada é um dataset completo, o script substitui somente `edges` e preserva as outras chaves, inclusive `a0Connectors`. Sem um destino explícito, ele atualiza o próprio arquivo de entrada. Uma lista isolada de processos não pode ser sobrescrita sem informar um arquivo de saída.
+When the input is a full dataset, the script replaces only `edges` and preserves the other keys, including `a0Connectors`. Without an explicit destination, it updates the input file itself. A bare list of processes cannot be overwritten without specifying an output file.
 
-O dataset atual contém 40 processos, 38 conectores explícitos do A0 e 203 conexões inferidas. Esses números servem como referência para a versão atual; podem mudar se a fonte for atualizada.
+The current dataset contains 40 processes, 38 explicit A0 connectors and 203 inferred connections. These numbers are a reference for the current version; they may change if the source is updated.

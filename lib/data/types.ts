@@ -16,14 +16,14 @@ export interface Process {
   name: string;
   domain: DomainId;
   phase: PhaseId;
-  /** Posição do cartão no A0 original (pontos PDF), usada para o layout do mapa. */
+  /** Card position in the original A0 (PDF points), used for the map layout. */
   position: { x: number; y: number; w: number; h: number };
   inputs: ArtifactItem[];
   tools: ArtifactItem[];
   outputs: ArtifactItem[];
-  /** Observações de incerteza ou fidelidade à fonte. */
+  /** Notes on uncertainty or fidelity to the source. */
   flags: string[];
-  /** Correções editoriais, com a redação literal do A0 preservada para rastreabilidade. */
+  /** Editorial corrections, with the literal A0 wording preserved for traceability. */
   sourceNotes?: string[];
 }
 
@@ -35,7 +35,7 @@ export interface ProcessEdge {
   basis: "artifact-match";
 }
 
-/** Conector com pontas nos dois sentidos, desenhado explicitamente entre cartões no A0. */
+/** Double-headed connector, explicitly drawn between cards in the A0. */
 export interface A0Connector {
   id: string;
   processes: [string, string];

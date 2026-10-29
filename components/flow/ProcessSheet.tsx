@@ -46,7 +46,7 @@ export function ProcessSheet({ data, process, onClose, onNavigate, portalContain
   const Links = ({ title, edges, dir }: { title: string; edges: typeof incoming; dir: "in" | "out" }) => (
     <section className="rounded-[18px] border bg-card p-4">
       <h3 className="eyebrow mb-2">{title} ({edges.length})</h3>
-      {edges.length === 0 && <p className="text-sm text-muted-foreground">Nenhuma conexão derivada.</p>}
+      {edges.length === 0 && <p className="text-sm text-muted-foreground">No derived connections.</p>}
       <ul className="space-y-2">
         {edges.map((e) => {
           const other = byId.get(dir === "in" ? e.source : e.target)!;
@@ -86,7 +86,7 @@ export function ProcessSheet({ data, process, onClose, onNavigate, portalContain
                 <span className="rounded-full bg-muted px-2.5 py-0.5 font-bold text-muted-foreground">{phase?.name}</span>
               </div>
               <SheetTitle className="text-2xl font-[700] tracking-[-0.035em]">{process.name}</SheetTitle>
-              <SheetDescription>Entradas, ferramentas e técnicas e saídas do processo.</SheetDescription>
+              <SheetDescription>Inputs, tools and techniques, and outputs of the process.</SheetDescription>
             </SheetHeader>
             <ScrollArea className="min-h-0 flex-1">
               <div className="space-y-3 p-6">
@@ -96,12 +96,12 @@ export function ProcessSheet({ data, process, onClose, onNavigate, portalContain
                     <div>{process.flags.map((f, i) => <p key={i}>{f}</p>)}</div>
                   </div>
                 )}
-                <ArtifactList title="Entradas" list={process.inputs} />
-                <ArtifactList title="Ferramentas e técnicas" list={process.tools} />
-                <ArtifactList title="Saídas" list={process.outputs} />
-                <p className="px-1 text-xs text-muted-foreground">Conexões inferidas pelas entradas e saídas nomeadas.</p>
-                <Links title="Recebe de" edges={incoming} dir="in" />
-                <Links title="Alimenta" edges={outgoing} dir="out" />
+                <ArtifactList title="Inputs" list={process.inputs} />
+                <ArtifactList title="Tools and techniques" list={process.tools} />
+                <ArtifactList title="Outputs" list={process.outputs} />
+                <p className="px-1 text-xs text-muted-foreground">Connections inferred from the named inputs and outputs.</p>
+                <Links title="Receives from" edges={incoming} dir="in" />
+                <Links title="Feeds into" edges={outgoing} dir="out" />
               </div>
             </ScrollArea>
           </>

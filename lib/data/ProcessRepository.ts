@@ -1,8 +1,8 @@
 import type { FlowData, Process, ProcessEdge } from "./types";
 
 /**
- * Contrato de acesso aos dados do fluxo. A UI depende só desta interface,
- * então um SupabaseProcessRepository pode entrar depois sem mexer no front.
+ * Contract for accessing the flow data. The UI depends only on this interface,
+ * so a SupabaseProcessRepository can be added later without touching the front end.
  */
 export interface ProcessRepository {
   getFlow(): Promise<FlowData>;

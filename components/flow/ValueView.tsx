@@ -18,7 +18,7 @@ function getNativeFullscreenElement() {
   return document.fullscreenElement ?? webkitDocument.webkitFullscreenElement ?? null;
 }
 
-/** Centros dos cartões na prancha A3, medidos na renderização de 1698 × 2400. */
+/** Card centers on the A3 poster, measured on the 1698 × 2400 render. */
 const CARD_AREAS: Record<string, [number, number, number, number]> = {
   "1.1": [256, 438, 268, 102], "5.1": [256, 590, 268, 102],
   "2.1": [615, 278, 266, 102], "2.2": [615, 408, 266, 102],
@@ -43,7 +43,7 @@ const CARD_AREAS: Record<string, [number, number, number, number]> = {
   "1.9": [426, 1805, 266, 102],
 };
 
-/** Faixas da legenda no rodapé do A3, na mesma escala dos cartões. */
+/** Legend bands in the A3 footer, at the same scale as the cards. */
 const DOMAIN_AREAS: Record<DomainId, [number, number]> = {
   governanca: [90, 295], escopo: [308, 514], cronograma: [526, 732],
   financas: [745, 951], "partes-interessadas": [964, 1169],
@@ -125,22 +125,22 @@ export function ValueView({ data, visibleIds, activeDomains, onToggleDomain, onF
           <div className="flex min-w-0 items-start gap-3">
             <span className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-[var(--accent)] text-[var(--accent-foreground)]"><MonitorUp className="size-5" /></span>
             <div>
-              <h2 className="text-sm font-bold">Orientado por Valor</h2>
-              <p className="text-xs leading-relaxed text-muted-foreground">Para a melhor experiência, apresente em tela vertical. Clique em um cartão para ver seus detalhes. No celular, deslize para explorar a prancha.</p>
+              <h2 className="text-sm font-bold">Value-driven</h2>
+              <p className="text-xs leading-relaxed text-muted-foreground">For the best experience, present on a vertical screen. Click a card to see its details. On a phone, swipe to explore the poster.</p>
             </div>
           </div>
           <button type="button" onClick={toggleFullscreen} className="inline-flex h-10 shrink-0 items-center gap-2 rounded-xl border bg-[var(--surface-subtle)] px-3 text-xs font-bold text-[var(--accent-ink)] hover:bg-[var(--accent)] focus-visible:outline-3 focus-visible:outline-ring">
-            <Expand className="size-4" /> Apresentar em tela cheia
+            <Expand className="size-4" /> Present full screen
           </button>
         </div>
         <div ref={stageRef} data-pseudo-fullscreen={pseudoFullscreen ? "true" : undefined} className="value-stage overflow-x-auto rounded-[20px] border bg-[var(--hero)] shadow-[var(--shadow-card)]">
           {fullscreen && <div className="value-fullscreen-toolbar">
             <button type="button" onClick={toggleFullscreen} className="value-fullscreen-exit inline-flex h-10 items-center gap-2 rounded-xl border border-white/30 bg-[var(--hero)]/90 px-3 text-xs font-bold text-white shadow-lg focus-visible:outline-3 focus-visible:outline-white">
-              <Minimize className="size-4" /> Sair da tela cheia
+              <Minimize className="size-4" /> Exit full screen
             </button>
           </div>}
           <div className="value-poster relative mx-auto aspect-[841.89/1190.55] w-full min-w-[700px] max-w-[1050px]">
-            <Image src={publicAssetPath("/orientado-por-valor.png")} alt="Fluxo de processos orientado por valor, conforme a prancha A3 de Ricardo Vargas" fill sizes="(max-width: 700px) 700px, 100vw" className="object-fill" priority unoptimized />
+            <Image src={publicAssetPath("/value-oriented.png")} alt="Value-driven process flow, based on Ricardo Vargas's A3 poster" fill sizes="(max-width: 700px) 700px, 100vw" className="object-fill" priority unoptimized />
             {data.processes.map((process) => {
               const area = CARD_AREAS[process.id];
               if (!area) return null;
@@ -149,7 +149,7 @@ export function ValueView({ data, visibleIds, activeDomains, onToggleDomain, onF
                 <button
                   key={process.id}
                   type="button"
-                  aria-label={`Abrir ${process.id}: ${process.name}`}
+                  aria-label={`Open ${process.id}: ${process.name}`}
                   title={`${process.id} · ${process.name}`}
                   onClick={() => onOpen(process.id)}
                   className={`absolute z-10 rounded-md border-2 border-transparent transition-colors hover:border-white/90 hover:bg-white/15 focus-visible:border-white focus-visible:bg-white/20 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-[#1d4ed8] ${visibleIds.has(process.id) ? "" : "bg-white/75"}`}
@@ -164,9 +164,9 @@ export function ValueView({ data, visibleIds, activeDomains, onToggleDomain, onF
                 <button
                   key={domain.id}
                   type="button"
-                  aria-label={`Filtrar domínio ${domain.number} ${domain.name}`}
+                  aria-label={`Filter domain ${domain.number} ${domain.name}`}
                   aria-pressed={active}
-                  title={`Filtrar: ${domain.name}`}
+                  title={`Filter: ${domain.name}`}
                   onClick={() => onToggleDomain(domain.id)}
                   className={`absolute z-20 rounded-sm transition-colors hover:bg-white/20 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-white ${active ? "ring-2 ring-inset ring-white shadow-[0_0_0_2px_#2154c2]" : activeDomains.size > 0 ? "bg-white/45" : ""}`}
                   style={{ left: `${(left / 1698) * 100}%`, top: `${(2301 / 2400) * 100}%`, width: `${((right - left) / 1698) * 100}%`, height: `${(30 / 2400) * 100}%` }}

@@ -67,8 +67,8 @@ function CardBody({ p, status }: { p: Process; status?: "ok" | "erro" }) {
       <div className="flex min-w-0 flex-1 items-center gap-2 px-2.5 py-2">
         <span className="font-mono text-[11px] font-semibold" style={{ color: c.ink }}>{p.id}</span>
         <span className="min-w-0 flex-1 text-[13px] leading-tight font-semibold">{p.name}</span>
-        {status === "ok" && <span className="flex size-5 items-center justify-center rounded-full" style={{ background: "var(--success-bg)", color: "var(--success-ink)" }} aria-label="Correto"><Check className="size-3.5" strokeWidth={2.4} /></span>}
-        {status === "erro" && <span className="flex size-5 items-center justify-center rounded-full" style={{ background: "var(--danger-bg)", color: "var(--danger-ink)" }} aria-label="Fase errada"><X className="size-3.5" strokeWidth={2.4} /></span>}
+        {status === "ok" && <span className="flex size-5 items-center justify-center rounded-full" style={{ background: "var(--success-bg)", color: "var(--success-ink)" }} aria-label="Correct"><Check className="size-3.5" strokeWidth={2.4} /></span>}
+        {status === "erro" && <span className="flex size-5 items-center justify-center rounded-full" style={{ background: "var(--danger-bg)", color: "var(--danger-ink)" }} aria-label="Wrong phase"><X className="size-3.5" strokeWidth={2.4} /></span>}
       </div>
     </div>
   );
@@ -111,7 +111,7 @@ function BoardSkeleton() {
   const block = (className: string) => <div aria-hidden="true" className={`skeleton-shimmer rounded-lg ${className}`} />;
 
   return (
-    <div role="status" aria-label="Preparando o quadro de estudo" aria-busy="true" className="flex h-full min-h-0 flex-col gap-4 overflow-x-hidden overflow-y-auto overscroll-contain p-4 md:overflow-hidden md:p-6">
+    <div role="status" aria-label="Preparing the study board" aria-busy="true" className="flex h-full min-h-0 flex-col gap-4 overflow-x-hidden overflow-y-auto overscroll-contain p-4 md:overflow-hidden md:p-6">
       <div className="flex flex-col gap-3 rounded-[24px] border bg-card p-3 shadow-[var(--shadow-card)] sm:flex-row sm:items-center sm:p-4">
         <div className="flex-1 space-y-2">
           {block("h-3 w-24")}
@@ -141,7 +141,7 @@ function BoardSkeleton() {
           ))}
         </div>
       </div>
-      <span className="sr-only">Preparando o quadro de estudo…</span>
+      <span className="sr-only">Preparing the study board…</span>
     </div>
   );
 }
@@ -188,7 +188,7 @@ export function BoardView({ data, visibleIds, onOpen }: Props) {
       window.localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
       setStorageAvailable(true);
     } catch {
-      // O quadro continua utilizável quando o navegador bloqueia o armazenamento local.
+      // The board stays usable when the browser blocks local storage.
       setStorageAvailable(false);
     }
   }, [hydrated, hasStoredAttempt, placement, checked, seed, hasProgress]);
@@ -222,7 +222,7 @@ export function BoardView({ data, visibleIds, onOpen }: Props) {
     <div key={id} className="flex min-w-0 items-stretch gap-2">
       <div className="min-w-0 flex-1"><DraggableCard p={byId.get(id)!} status={status(id)} onOpen={onOpen} /></div>
       <select
-        aria-label={`Fase do processo ${id}`}
+        aria-label={`Focus area of process ${id}`}
         value={placement[id]}
         onChange={(event) => {
           const nextPhase = event.target.value as PhaseId | typeof POOL;
@@ -233,7 +233,7 @@ export function BoardView({ data, visibleIds, onOpen }: Props) {
         }}
         className="w-24 shrink-0 rounded-xl border bg-card px-1 text-[11px] font-semibold text-foreground focus-visible:outline-3 focus-visible:outline-ring md:hidden"
       >
-        <option value={POOL}>Fase…</option>
+        <option value={POOL}>Focus area…</option>
         {data.phases.map((phase) => <option key={phase.id} value={phase.id}>{phase.name}</option>)}
       </select>
     </div>
@@ -258,38 +258,38 @@ export function BoardView({ data, visibleIds, onOpen }: Props) {
       <div className="flex h-full min-h-0 flex-col gap-4 overflow-x-hidden overflow-y-auto overscroll-contain p-4 md:overflow-hidden md:p-6">
         <div className="flex flex-col gap-3 rounded-[24px] border bg-card p-3 shadow-[var(--shadow-card)] sm:flex-row sm:flex-wrap sm:items-center sm:p-4">
           <div className="sm:mr-auto">
-            <p className="eyebrow">Modo estudo</p>
-            <p className="text-sm text-muted-foreground">Arraste cada cartão para a fase em que ele acontece. <span className="md:hidden">No celular, use o seletor ao lado.</span> Depois clique em verificar.</p>
+            <p className="eyebrow">Study mode</p>
+            <p className="text-sm text-muted-foreground">Drag each card to the focus area where it happens. <span className="md:hidden">On a phone, use the selector beside it.</span> Then click Check.</p>
           </div>
           <div className="w-full rounded-xl border bg-secondary/40 px-3 py-2 sm:w-auto sm:border-0 sm:bg-transparent sm:p-0">
             <div className="flex items-center justify-between gap-3 sm:justify-start">
-              <span className="text-xs font-medium text-muted-foreground sm:hidden">Progresso</span>
+              <span className="text-xs font-medium text-muted-foreground sm:hidden">Progress</span>
               <div className="text-sm font-semibold tabular-nums">
-            {checked ? <>Acertos: <span style={{ color: "var(--success-ink)" }}>{correct.length}</span> de {placed.length} posicionados</> : <>{placed.length} de {visible.length} posicionados</>}
+            {checked ? <>Correct: <span style={{ color: "var(--success-ink)" }}>{correct.length}</span> of {placed.length} placed</> : <>{placed.length} of {visible.length} placed</>}
               </div>
             </div>
-            <div role="progressbar" aria-label="Cartões posicionados" aria-valuemin={0} aria-valuemax={visible.length} aria-valuenow={placed.length} className="mt-2 h-1.5 overflow-hidden rounded-full bg-muted sm:hidden">
+            <div role="progressbar" aria-label="Cards placed" aria-valuemin={0} aria-valuemax={visible.length} aria-valuenow={placed.length} className="mt-2 h-1.5 overflow-hidden rounded-full bg-muted sm:hidden">
               <div className="h-full rounded-full bg-[var(--brand)] transition-[width]" style={{ width: `${placementProgress}%` }} />
             </div>
-            {hasProgress && <span role="status" className="mt-1 block text-[11px] font-medium text-muted-foreground">{storageAvailable === false ? "Não foi possível salvar neste navegador" : "Progresso salvo neste navegador"}</span>}
+            {hasProgress && <span role="status" className="mt-1 block text-[11px] font-medium text-muted-foreground">{storageAvailable === false ? "Could not save in this browser" : "Progress saved in this browser"}</span>}
           </div>
           <div className="grid w-full grid-cols-2 gap-2 sm:flex sm:w-auto">
-          <Button onClick={() => { setChecked(true); markProgress(); }} className="col-span-2 h-11 w-full min-w-0 rounded-xl px-3 text-sm font-bold sm:w-auto sm:px-4"><Check strokeWidth={1.8} /> Verificar</Button>
-          <Button variant="outline" className="h-11 w-full min-w-0 rounded-xl px-2 text-xs font-bold sm:w-auto sm:px-4 sm:text-sm" onClick={() => { setPlacement(Object.fromEntries(data.processes.map((p) => [p.id, p.phase]))); setChecked(true); markProgress(); }}><Eye strokeWidth={1.8} /> Mostrar resposta</Button>
+          <Button onClick={() => { setChecked(true); markProgress(); }} className="col-span-2 h-11 w-full min-w-0 rounded-xl px-3 text-sm font-bold sm:w-auto sm:px-4"><Check strokeWidth={1.8} /> Check</Button>
+          <Button variant="outline" className="h-11 w-full min-w-0 rounded-xl px-2 text-xs font-bold sm:w-auto sm:px-4 sm:text-sm" onClick={() => { setPlacement(Object.fromEntries(data.processes.map((p) => [p.id, p.phase]))); setChecked(true); markProgress(); }}><Eye strokeWidth={1.8} /> Show answer</Button>
           <Button variant="outline" className="h-11 w-full min-w-0 rounded-xl px-2 text-xs font-bold sm:w-auto sm:px-4 sm:text-sm" onClick={() => {
-            try { window.localStorage.removeItem(STORAGE_KEY); } catch { /* O estado da tela ainda pode ser reiniciado. */ }
+            try { window.localStorage.removeItem(STORAGE_KEY); } catch { /* The on-screen state can still be reset. */ }
             setPlacement(initial);
             setChecked(false);
             setSeed((s) => s + 1);
             setHasProgress(false);
             setHasStoredAttempt(true);
-          }}><RotateCcw strokeWidth={1.8} /> Nova tentativa</Button>
+          }}><RotateCcw strokeWidth={1.8} /> New attempt</Button>
           </div>
         </div>
 
         <div className="grid shrink-0 grid-cols-1 gap-4 md:min-h-0 md:flex-1 md:grid-cols-[minmax(300px,0.9fr)_minmax(0,1.1fr)]">
           <div className="min-w-0 md:min-h-0 md:overflow-x-hidden md:overflow-y-auto md:pr-1">
-            <Zone id={POOL} title="Cartões para posicionar" count={visible.filter((id) => placement[id] === POOL).length} wide>
+            <Zone id={POOL} title="Cards to place" count={visible.filter((id) => placement[id] === POOL).length} wide>
               {visible.filter((id) => placement[id] === POOL).map(card)}
             </Zone>
           </div>

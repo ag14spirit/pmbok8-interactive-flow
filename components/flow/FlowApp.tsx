@@ -18,18 +18,18 @@ import { MyProjectsView } from "./MyProjectsView";
 import { ResourcesView } from "./ResourcesView";
 
 const views = [
-  { id: "mapa", label: "Mapa", Icon: Network },
-  { id: "quadro", label: "Quadro de estudo", Icon: LayoutGrid },
-  { id: "valor", label: "Orientado por Valor", Icon: ScanLine },
-  { id: "projetos", label: "Meu projeto", Icon: BriefcaseBusiness },
-  { id: "recursos", label: "Recursos", Icon: BookOpen },
+  { id: "mapa", label: "Map", Icon: Network },
+  { id: "quadro", label: "Study board", Icon: LayoutGrid },
+  { id: "valor", label: "Value-driven", Icon: ScanLine },
+  { id: "projetos", label: "My project", Icon: BriefcaseBusiness },
+  { id: "recursos", label: "Resources", Icon: BookOpen },
 ] as const;
 type FlowView = (typeof views)[number]["id"];
 
 function SearchField({ value, onChange, className }: { value: string; onChange: (value: string) => void; className?: string }) {
   return <div className={`relative w-full ${className ?? ""}`}>
     <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-muted-foreground" strokeWidth={1.8} />
-    <Input value={value} onChange={(event) => onChange(event.target.value)} placeholder="Buscar processo, entrada, saída…" className="h-10 rounded-xl bg-card pl-9 sm:h-11" aria-label="Buscar processo, entrada e saída" />
+    <Input value={value} onChange={(event) => onChange(event.target.value)} placeholder="Search process, input, output…" className="h-10 rounded-xl bg-card pl-9 sm:h-11" aria-label="Search process, input and output" />
   </div>;
 }
 
@@ -74,12 +74,12 @@ export function FlowApp({ data }: { data: FlowData }) {
           <div className="flex w-full min-w-0 items-center gap-2 sm:gap-3">
             <Image src={publicAssetPath("/brand/simbolo-infinito.png")} alt="" width={28} height={28} className="h-7 w-auto" priority />
             <div className="min-w-0 flex-1">
-              <p className="eyebrow leading-none">Fluxo de processos · PMBOK® 8</p>
+              <p className="eyebrow leading-none">Process flow · PMBOK® 8</p>
               <h1 className="truncate text-base leading-tight font-[760] tracking-[-0.035em] sm:text-lg">
-                Fluxos PMBOK® 8 <span className="hidden lg:inline" style={{ color: "var(--accent-ink)" }}>para explorar e criar</span>
+                PMBOK® 8 flows <span className="hidden lg:inline" style={{ color: "var(--accent-ink)" }}>to explore and build</span>
               </h1>
             </div>
-            <Button type="button" variant="outline" className="min-h-10 shrink-0 gap-2 rounded-xl px-3 md:hidden" aria-label="Abrir menu de navegação" aria-expanded={mobileNavOpen} onClick={() => setMobileNavOpen(true)}>
+            <Button type="button" variant="outline" className="min-h-10 shrink-0 gap-2 rounded-xl px-3 md:hidden" aria-label="Open navigation menu" aria-expanded={mobileNavOpen} onClick={() => setMobileNavOpen(true)}>
               <Menu aria-hidden="true" className="size-4" /> Menu
             </Button>
             <div className="ml-auto hidden w-full max-w-xs md:block">
@@ -98,7 +98,7 @@ export function FlowApp({ data }: { data: FlowData }) {
           </div>
         </div>
         {view !== "projetos" && view !== "recursos" && <div className="hide-scrollbar flex items-center gap-2 overflow-x-auto px-4 pb-3 whitespace-nowrap md:flex-wrap md:overflow-visible md:px-6">
-          <span className="eyebrow mr-1 shrink-0">Domínios</span>
+          <span className="eyebrow mr-1 shrink-0">Domains</span>
           {data.domains.map((d) => {
             const c = DOMAIN_COLORS[d.id];
             const on = domains.has(d.id);
@@ -118,13 +118,13 @@ export function FlowApp({ data }: { data: FlowData }) {
           })}
           {(domains.size > 0 || query) && (
             <button type="button" onClick={() => { setDomains(new Set()); setQuery(""); }} className="text-[11px] font-bold text-[var(--accent-ink)] underline-offset-2 hover:underline">
-              Limpar filtros
+              Clear filters
             </button>
           )}
-          <span className="ml-auto shrink-0 text-[11px] font-semibold text-muted-foreground tabular-nums">{visibleIds.size} de {data.processes.length} processos</span>
+          <span className="ml-auto shrink-0 text-[11px] font-semibold text-muted-foreground tabular-nums">{visibleIds.size} of {data.processes.length} processes</span>
         </div>}
         {view !== "valor" && view !== "projetos" && view !== "recursos" && <div className="hide-scrollbar hidden items-center gap-2 overflow-x-auto border-t bg-[var(--hero)] px-4 py-2 whitespace-nowrap md:flex md:flex-wrap md:overflow-visible md:px-6">
-          <span className="mr-1 shrink-0 text-[10px] font-extrabold tracking-[.14em] text-[#b6d0ff] uppercase">6 princípios</span>
+          <span className="mr-1 shrink-0 text-[10px] font-extrabold tracking-[.14em] text-[#b6d0ff] uppercase">6 principles</span>
           {data.principles.map((p) => (
             <span key={p.id} className="shrink-0 rounded-full border border-white/25 bg-white/10 px-2.5 py-1 text-[10px] font-bold tracking-wide text-white uppercase">{p.name}</span>
           ))}
@@ -134,9 +134,9 @@ export function FlowApp({ data }: { data: FlowData }) {
       <Sheet open={mobileNavOpen} onOpenChange={setMobileNavOpen}>
         <SheetContent side="left" className="w-[min(20rem,calc(100vw-2rem))] max-w-[calc(100vw-2rem)] gap-0 p-0 md:hidden">
           <SheetHeader className="border-b p-5">
-            <SheetTitle className="text-lg font-bold">Navegação</SheetTitle>
+            <SheetTitle className="text-lg font-bold">Navigation</SheetTitle>
           </SheetHeader>
-          <nav aria-label="Navegação principal" className="flex flex-col gap-1 p-3">
+          <nav aria-label="Main navigation" className="flex flex-col gap-1 p-3">
             {views.map(({ id, label, Icon }) => (
               <button key={id} type="button" aria-current={view === id ? "page" : undefined} onClick={() => { setView(id); setMobileNavOpen(false); }}
                 className={`flex min-h-12 w-full items-center gap-3 rounded-xl px-3 py-2 text-left text-sm font-semibold transition-colors focus-visible:outline-3 focus-visible:outline-ring ${view === id ? "bg-[var(--brand)] text-white" : "text-foreground hover:bg-secondary"}`}>
@@ -160,7 +160,7 @@ export function FlowApp({ data }: { data: FlowData }) {
       </main>
 
       <footer className="flex flex-wrap items-center justify-between gap-2 border-t bg-card px-4 py-2 text-[11px] text-[#6b7684] md:px-6">
-        <span>{view === "projetos" ? "Catálogo de referência: PMI, Guia PMBOK® 8ª ed. · Fluxo adaptado por Ricardo Vargas. Este app não substitui a leitura do Guia." : "Fonte: PMI, Guia PMBOK® 8ª ed. · Fluxo adaptado por Ricardo Vargas. Não substitui a leitura do Guia."}</span>
+        <span>{view === "projetos" ? "Reference catalog: PMI, PMBOK® Guide, 8th ed. · Flow adapted by Ricardo Vargas. This app does not replace reading the Guide." : "Source: PMI, PMBOK® Guide, 8th ed. · Flow adapted by Ricardo Vargas. Does not replace reading the Guide."}</span>
         <span className="flex items-center gap-2">
           <Image src={publicAssetPath("/brand/simbolo-infinito.png")} alt="" width={18} height={18} className="h-[18px] w-auto" />
           <span className="signature text-[13px]">@colabdeveloper</span>

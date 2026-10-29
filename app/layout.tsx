@@ -7,13 +7,13 @@ const plexMono = IBM_Plex_Mono({ variable: "--font-plex-mono", subsets: ["latin"
 
 export const metadata: Metadata = {
   title: "Fluxo PMBOK 8 interativo | @colabdeveloper",
-  description: "Mapa e quadro interativo dos 40 processos do Guia PMBOK® 8ª edição.",
+  description: "Interactive map and study board for the 40 processes of the PMBOK® Guide, 8th edition.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    // Extensões do navegador podem acrescentar atributos ao <html> antes da hidratação.
-    <html lang="pt-BR" className={`${inter.variable} ${plexMono.variable}`} suppressHydrationWarning>
+    // Browser extensions may add attributes to <html> before hydration.
+    <html lang="en" className={`${inter.variable} ${plexMono.variable}`} suppressHydrationWarning>
       <body className="antialiased">{children}</body>
     </html>
   );

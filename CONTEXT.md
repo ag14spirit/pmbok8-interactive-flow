@@ -1,38 +1,38 @@
-# Fluxo de processos PMBOK 8
+# PMBOK 8 process flow
 
-Este contexto descreve os cartões do fluxo A0, os dois significados de ligação usados no mapa interativo e o espaço de fluxos personalizados por projeto.
+This context describes the cards of the A0 flow, the two meanings of a link used in the interactive map, and the space for custom per-project flows.
 
-## Linguagem
+## Language
 
-**Processo**:
-Atividade de gerenciamento representada por um cartão do fluxo A0, pertencente a uma fase e a um domínio.
+**Process**:
+Management activity represented by a card of the A0 flow, belonging to a focus area (`phase` in the data) and a domain.
 
-**Conector do A0**:
-Ligação explicitamente desenhada entre dois cartões no infográfico A0. A ligação visual não identifica, por si só, um artefato específico transferido entre os processos.
+**A0 connector**:
+Link explicitly drawn between two cards in the A0 infographic. The visual link does not, by itself, identify a specific artifact passed between the processes.
 
-**Conexão inferida**:
-Relação dirigida entre dois processos quando uma saída nomeada de um aparece como entrada do outro; itens genéricos não estabelecem essa relação.
+**Inferred connection**:
+Directed relation between two processes when a named output of one appears as an input of the other; generic items do not establish this relation.
 
-**Nome normalizado**:
-Rótulo apresentado após uma correção editorial da redação do A0. A forma literal da fonte permanece registrada para rastreabilidade.
+**Normalized name**:
+Label shown after an editorial correction of the A0 wording. The literal form from the source is kept on record for traceability.
 
-**Progresso local**:
-Estado do quadro de estudo — posições, ordem dos cartões e resultado da verificação — que a pessoa pode retomar no mesmo navegador. Não corresponde a um perfil, turma ou progresso sincronizado entre dispositivos.
+**Local progress**:
+State of the study board — positions, card order and check result — that a person can resume in the same browser. It is not a profile, a class or progress synced across devices.
 
-**Projeto personalizado**:
-Espaço de trabalho criado pela pessoa para organizar um projeto real. Na primeira versão, cada projeto contém um fluxo e é salvo localmente. Não é um modo de estudo nem uma representação oficial do fluxo A0.
+**Custom project**:
+Workspace created by a person to organize a real project. In the first version, each project contains one flow and is saved locally. It is not a study mode and not an official representation of the A0 flow.
 
-**Etapa personalizada**:
-Coluna de um fluxo personalizado, com nome definido pela pessoa. As etapas podem ser criadas, renomeadas e ordenadas livremente; não precisam corresponder às cinco fases do PMBOK.
+**Custom stage**:
+Column of a custom flow, with a name chosen by the person. Stages can be freely created, renamed and reordered; they do not need to match the five PMBOK focus areas.
 
-**Cartão personalizado**:
-Cartão criado dentro de um projeto, com título e notas opcionais. Pode ser movido entre etapas e não altera o catálogo de referência.
+**Custom card**:
+Card created inside a project, with a title and optional notes. It can be moved between stages and does not change the reference catalog.
 
-**Cartão de referência**:
-Processo do catálogo incluído em um projeto como cópia editável. A cópia mantém uma referência ao processo de origem, sem modificar o cartão do catálogo.
+**Reference card**:
+Catalog process included in a project as an editable copy. The copy keeps a reference to the source process, without modifying the catalog card.
 
-**Conexão personalizada**:
-Ligação opcional e dirigida entre cartões de um fluxo personalizado. É definida pela pessoa e não deve ser apresentada como conector explícito do A0 nem como conexão inferida do mapa.
+**Custom connection**:
+Optional, directed link between cards of a custom flow. It is defined by the person and must not be presented as an explicit A0 connector or as an inferred connection on the map.
 
-**Persistência local de projeto**:
-Armazenamento dos projetos no dispositivo/navegador atual, com exportação e importação portáveis. A implementação deve manter uma fronteira entre o modelo do projeto e seu adaptador de armazenamento local para permitir considerar outro adaptador no futuro; isso não implica autenticação, sincronização ou colaboração na primeira versão.
+**Local project persistence**:
+Storage of projects on the current device/browser, with portable export and import. The implementation must keep a boundary between the project model and its local storage adapter so another adapter can be considered in the future; this does not imply authentication, sync or collaboration in the first version.

@@ -65,15 +65,15 @@ export function validateProjectCollection(value: unknown): value is ProjectColle
 
 export function parseProjectImport(raw: string): ProjectCollection {
   const size = new Blob([raw]).size;
-  if (size > PROJECT_IMPORT_MAX_BYTES) throw new ProjectStorageError("O arquivo ultrapassa o limite de 50 MB.");
+  if (size > PROJECT_IMPORT_MAX_BYTES) throw new ProjectStorageError("The file exceeds the 50 MB limit.");
   let parsed: unknown;
   try {
     parsed = JSON.parse(raw);
   } catch {
-    throw new ProjectStorageError("Este arquivo não contém um JSON válido.");
+    throw new ProjectStorageError("This file does not contain valid JSON.");
   }
   if (!validateProjectCollection(parsed)) {
-    throw new ProjectStorageError("O arquivo não corresponde a um backup válido desta versão do Meu projeto.");
+    throw new ProjectStorageError("The file is not a valid backup for this version of My project.");
   }
   return parsed;
 }
@@ -84,10 +84,10 @@ export class LocalStorageProjectRepository implements ProjectRepository {
     if (!raw) return { version: PROJECT_SCHEMA_VERSION, projects: [] };
     let parsed: unknown;
     try { parsed = JSON.parse(raw); } catch {
-      throw new ProjectStorageError("Os dados locais estão corrompidos. Exporte uma cópia antes de substituir os dados.");
+      throw new ProjectStorageError("Local data is corrupted. Export a copy before replacing the data.");
     }
     if (!validateProjectCollection(parsed)) {
-      throw new ProjectStorageError("Os dados locais têm uma versão ou estrutura incompatível. Exporte-os antes de continuar.");
+      throw new ProjectStorageError("Local data has an incompatible version or structure. Export it before continuing.");
     }
     return parsed;
   }
@@ -98,12 +98,12 @@ export class LocalStorageProjectRepository implements ProjectRepository {
 
   save(collection: ProjectCollection): void {
     if (!validateProjectCollection(collection)) {
-      throw new ProjectStorageError("Há um campo sem nome ou dado inválido. Revise o fluxo antes de salvar.");
+      throw new ProjectStorageError("A field is missing a name or contains invalid data. Review the flow before saving.");
     }
     try {
       window.localStorage.setItem(PROJECT_STORAGE_KEY, JSON.stringify(collection));
     } catch {
-      throw new ProjectStorageError("Não foi possível salvar. O armazenamento do navegador pode estar indisponível ou cheio. Exporte seu trabalho antes de fechar esta página.");
+      throw new ProjectStorageError("Could not save. Browser storage may be unavailable or full. Export your work before closing this page.");
     }
   }
 }

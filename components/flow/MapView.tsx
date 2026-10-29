@@ -34,13 +34,13 @@ function connectorHandles(a: Process, b: Process) {
     : { sourceHandle: "source-top", targetHandle: "target-bottom" };
 }
 
-/** Regiões discretas do mapa; o recorte do planejamento acompanha a dobra da composição A0. */
+/** Discrete map regions; the planning clip follows the fold of the A0 composition. */
 const PHASE_AREAS = [
-  { id: "iniciacao", name: "Iniciação", x: 130, y: 180, w: 290, h: 710 },
-  { id: "planejamento", name: "Planejamento", x: 430, y: 180, w: 1850, h: 1390, clip: "polygon(0 0, 100% 0, 100% 100%, 35% 100%, 35% 73.4%, 0 73.4%)" },
-  { id: "execucao", name: "Execução", x: 150, y: 1200, w: 910, h: 930 },
-  { id: "monitoramento-controle", name: "Monitoramento e Controle", x: 1100, y: 1930, w: 1180, h: 1080 },
-  { id: "encerramento", name: "Encerramento", x: 800, y: 2560, w: 260, h: 330 },
+  { id: "iniciacao", name: "Initiating", x: 130, y: 180, w: 290, h: 710 },
+  { id: "planejamento", name: "Planning", x: 430, y: 180, w: 1850, h: 1390, clip: "polygon(0 0, 100% 0, 100% 100%, 35% 100%, 35% 73.4%, 0 73.4%)" },
+  { id: "execucao", name: "Executing", x: 150, y: 1200, w: 910, h: 930 },
+  { id: "monitoramento-controle", name: "Monitoring and Controlling", x: 1100, y: 1930, w: 1180, h: 1080 },
+  { id: "encerramento", name: "Closing", x: 800, y: 2560, w: 260, h: 330 },
 ];
 
 type ProcNodeData = { p: Process; dimmed: boolean; selected: boolean };
@@ -214,15 +214,15 @@ export function MapView({ data, visibleIds, selectedId, query, onSelect }: Props
     <div className="relative flex h-full min-h-0 w-full flex-col">
       <div className="flex flex-col gap-1.5 border-b bg-card px-3 py-2 md:hidden">
         <div className="flex items-center justify-between gap-2">
-          <span className="text-[10px] font-extrabold tracking-[.12em] text-muted-foreground uppercase">Conexões</span>
-          <div role="group" aria-label="Tipo de conexões" className="flex min-w-0 flex-1 justify-end gap-1">
-            <button type="button" aria-label={`Mostrar setas explícitas do A0, ${data.a0Connectors.length} conexões`} aria-pressed={connectionMode === "a0"} onClick={() => setConnectionMode("a0")}
+          <span className="text-[10px] font-extrabold tracking-[.12em] text-muted-foreground uppercase">Connections</span>
+          <div role="group" aria-label="Connection type" className="flex min-w-0 flex-1 justify-end gap-1">
+            <button type="button" aria-label={`Show explicit A0 arrows, ${data.a0Connectors.length} connections`} aria-pressed={connectionMode === "a0"} onClick={() => setConnectionMode("a0")}
               className={`min-h-9 min-w-0 rounded-lg px-2 text-[11px] font-semibold ${connectionMode === "a0" ? "bg-[var(--brand)] text-white" : "bg-secondary text-muted-foreground"}`}>A0 · {data.a0Connectors.length}</button>
-            <button type="button" aria-label={`Mostrar conexões inferidas por entradas e saídas, ${data.edges.length} conexões`} aria-pressed={connectionMode === "inferred"} onClick={() => setConnectionMode("inferred")}
-              className={`min-h-9 min-w-0 rounded-lg px-2 text-[11px] font-semibold ${connectionMode === "inferred" ? "bg-[var(--brand)] text-white" : "bg-secondary text-muted-foreground"}`}>Entradas/saídas · {data.edges.length}</button>
+            <button type="button" aria-label={`Show connections inferred from inputs and outputs, ${data.edges.length} connections`} aria-pressed={connectionMode === "inferred"} onClick={() => setConnectionMode("inferred")}
+              className={`min-h-9 min-w-0 rounded-lg px-2 text-[11px] font-semibold ${connectionMode === "inferred" ? "bg-[var(--brand)] text-white" : "bg-secondary text-muted-foreground"}`}>Inputs/outputs · {data.edges.length}</button>
           </div>
         </div>
-        <p className="text-[11px] leading-snug text-muted-foreground">No celular, arraste para mover e use dois dedos para ampliar. Em uma tela maior, mais do fluxo fica visível.</p>
+        <p className="text-[11px] leading-snug text-muted-foreground">On a phone, drag to pan and pinch with two fingers to zoom. On a larger screen, more of the flow is visible.</p>
       </div>
       <div ref={containerRef} className="relative min-h-0 flex-1 w-full bg-[var(--canvas)]">
       {initialSize && initialViewport && <div className="absolute inset-0" style={{ opacity: viewportInitialized ? 1 : 0, visibility: viewportInitialized ? "visible" : "hidden", pointerEvents: viewportInitialized ? "auto" : "none" }} aria-hidden={!viewportInitialized}>
@@ -250,15 +250,15 @@ export function MapView({ data, visibleIds, selectedId, query, onSelect }: Props
         </ReactFlow>
       </div>}
       <div className="absolute top-3 right-3 z-10 hidden max-w-[calc(100%-1.5rem)] flex-wrap items-center gap-2 rounded-xl border bg-card p-1.5 text-xs shadow-[var(--shadow-soft)] md:flex">
-        <span className="px-1.5 text-[10px] font-extrabold tracking-[.12em] text-muted-foreground uppercase">Conexões</span>
-        <div role="group" aria-label="Tipo de conexões" className="flex flex-wrap gap-1">
+        <span className="px-1.5 text-[10px] font-extrabold tracking-[.12em] text-muted-foreground uppercase">Connections</span>
+        <div role="group" aria-label="Connection type" className="flex flex-wrap gap-1">
           <button type="button" aria-pressed={connectionMode === "a0"} onClick={() => setConnectionMode("a0")}
             className={`rounded-lg px-2.5 py-1.5 font-semibold transition-colors ${connectionMode === "a0" ? "bg-[var(--brand)] text-white" : "text-muted-foreground hover:bg-secondary"}`}>
-            Setas do A0 ({data.a0Connectors.length})
+            A0 arrows ({data.a0Connectors.length})
           </button>
           <button type="button" aria-pressed={connectionMode === "inferred"} onClick={() => setConnectionMode("inferred")}
             className={`rounded-lg px-2.5 py-1.5 font-semibold transition-colors ${connectionMode === "inferred" ? "bg-[var(--brand)] text-white" : "text-muted-foreground hover:bg-secondary"}`}>
-            Entradas e saídas ({data.edges.length})
+            Inputs and outputs ({data.edges.length})
           </button>
         </div>
       </div>

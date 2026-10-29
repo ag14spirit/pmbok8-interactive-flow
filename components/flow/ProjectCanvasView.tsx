@@ -33,7 +33,7 @@ function StageNode({ data }: NodeProps<Node<StageNodeData>>) {
         <span className="min-w-0 break-words text-xs font-extrabold tracking-[.1em] text-[#24408f] uppercase">{data.name}</span>
         <span className="shrink-0 rounded-full bg-secondary px-2 py-0.5 text-[10px] font-bold text-muted-foreground tabular-nums">{data.count}</span>
       </div>
-      {data.count === 0 && <div className="mt-4 rounded-xl border border-dashed border-[#2154c2]/20 bg-card/45 px-3 py-4 text-center text-xs text-muted-foreground">Nenhum cartão nesta etapa.</div>}
+      {data.count === 0 && <div className="mt-4 rounded-xl border border-dashed border-[#2154c2]/20 bg-card/45 px-3 py-4 text-center text-xs text-muted-foreground">No cards in this stage.</div>}
     </div>
   );
 }
@@ -49,10 +49,10 @@ function ProjectCardNode({ data }: NodeProps<Node<ProjectCardNodeData>>) {
         type="button"
         className="flex size-full cursor-pointer flex-col items-start overflow-hidden rounded-2xl border bg-card text-left shadow-[var(--shadow-soft)] transition-shadow hover:shadow-[var(--shadow-card)] focus-visible:outline-3 focus-visible:outline-ring"
         onClick={() => data.onOpen(data.card)}
-        aria-label={`Editar cartão ${data.card.title}`}
+        aria-label={`Edit card ${data.card.title}`}
       >
         <span className="line-clamp-2 w-full break-words px-3 pt-3 text-sm leading-snug font-bold">{data.card.title}</span>
-        {data.card.notes ? <span className="mt-1 line-clamp-3 w-full whitespace-pre-wrap break-words px-3 pb-3 text-xs leading-snug text-muted-foreground">{data.card.notes}</span> : <span className="mt-1 px-3 pb-3 text-xs text-muted-foreground">Sem notas</span>}
+        {data.card.notes ? <span className="mt-1 line-clamp-3 w-full whitespace-pre-wrap break-words px-3 pb-3 text-xs leading-snug text-muted-foreground">{data.card.notes}</span> : <span className="mt-1 px-3 pb-3 text-xs text-muted-foreground">No notes</span>}
       </button>
       <Handle id="source-left" type="source" position={Position.Left} isConnectable={false} className="!size-1 !border-0 !bg-transparent !opacity-0" />
       <Handle id="source-right" type="source" position={Position.Right} isConnectable={false} className="!size-1 !border-0 !bg-transparent !opacity-0" />
@@ -173,10 +173,10 @@ export function ProjectCanvasView({ stages, cards, connections, onOpenCard }: Pr
   return (
     <div className="overflow-hidden rounded-[24px] border bg-[var(--canvas)] shadow-[var(--shadow-card)]">
       <div className="flex flex-col gap-1 border-b bg-card px-3 py-2 sm:flex-row sm:items-center sm:justify-between sm:px-4">
-        <p className="text-xs text-muted-foreground">{cards.length === 0 ? "Seu fluxo ainda não tem cartões. Adicione cartões no quadro para preencher as etapas." : "Visualização somente leitura. Clique em um cartão para editá-lo no quadro."}</p>
-        {cards.length > 0 && <p className="text-[11px] font-semibold text-muted-foreground"><span className="sm:hidden">Arraste para explorar; use dois dedos para ampliar.</span><span className="hidden sm:inline">Arraste para explorar e use os controles para ampliar.</span></p>}
+        <p className="text-xs text-muted-foreground">{cards.length === 0 ? "Your flow has no cards yet. Add cards on the board to fill the stages." : "Read-only view. Click a card to edit it on the board."}</p>
+        {cards.length > 0 && <p className="text-[11px] font-semibold text-muted-foreground"><span className="sm:hidden">Drag to explore; use two fingers to zoom.</span><span className="hidden sm:inline">Drag to explore and use the controls to zoom.</span></p>}
       </div>
-      {connections.length === 0 && <p role="status" className="border-b bg-secondary/50 px-3 py-2 text-xs text-muted-foreground sm:px-4">Sem conexões ainda. Crie relações entre cartões no painel ao lado para exibir setas.</p>}
+      {connections.length === 0 && <p role="status" className="border-b bg-secondary/50 px-3 py-2 text-xs text-muted-foreground sm:px-4">No connections yet. Create relationships between cards in the side panel to show arrows.</p>}
       <div ref={containerRef} className="relative h-[min(68dvh,760px)] min-h-[360px] w-full touch-none sm:min-h-[440px]">
         {size && <ReactFlow
           nodes={nodes}
@@ -193,7 +193,7 @@ export function ProjectCanvasView({ stages, cards, connections, onOpenCard }: Pr
           elementsSelectable={false}
           fitView={false}
           proOptions={{ hideAttribution: true }}
-          aria-label="Canvas do fluxo personalizado"
+          aria-label="Custom flow canvas"
         >
           <Background gap={18} color="#d5dbe6" />
           <Controls showInteractive={false} position="bottom-right" className="!hidden sm:!flex" />

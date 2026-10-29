@@ -1,6 +1,6 @@
 import type { DomainId } from "./data/types";
 
-/** Cores sóbrias por domínio, inspiradas na legenda do A0 e ajustadas para contraste AA com texto branco. */
+/** Muted colors per domain, inspired by the A0 legend and tuned for AA contrast with white text. */
 export const DOMAIN_COLORS: Record<DomainId, { solid: string; soft: string; ink: string }> = {
   governanca: { solid: "#2b3347", soft: "#eceef3", ink: "#2b3347" },
   escopo: { solid: "#24408f", soft: "#e8edf8", ink: "#24408f" },
